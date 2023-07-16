@@ -1,0 +1,1 @@
+function s(n){return(n==null?void 0:n.length)!==void 0?n:Array.from(n)}const u={Svencelė:"55.495,21.228",Kunigiškės:"55.961,21.067",Plateliai:"56.049,21.859",Šventoji:"56.031,21.066",Smiltynė:"55.719,21.090",Pavilosta:"56.889,21.188"};export{s as e,u as s};
