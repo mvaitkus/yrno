@@ -1,0 +1,5948 @@
+{
+  "created": "2023-07-15T19:40:05+03:00",
+  "update": "2023-07-15T20:40:05+03:00",
+  "uv": {
+    "duration": {
+      "days": 2,
+      "hours": 6
+    },
+    "url": "https://dsa.no/sol-og-solarium/slik-beskytter-du-deg-i-sola",
+    "displayUrl": "dsa.no"
+  },
+  "dayIntervals": [
+    {
+      "start": "2023-07-15T20:00:00+03:00",
+      "end": "2023-07-15T23:00:00+03:00",
+      "twentyFourHourSymbol": "partlycloudy_night",
+      "twelveHourSymbols": [
+        null,
+        "partlycloudy_night"
+      ],
+      "sixHourSymbols": [
+        null,
+        null,
+        null,
+        "partlycloudy_night"
+      ],
+      "precipitation": {
+        "value": 0.0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.9,
+        "min": 19.9,
+        "max": 22.5
+      },
+      "wind": {
+        "min": 1.4,
+        "max": 2.7,
+        "maxGust": 3.7
+      }
+    },
+    {
+      "start": "2023-07-16T00:00:00+03:00",
+      "end": "2023-07-16T23:00:00+03:00",
+      "twentyFourHourSymbol": "lightrainshowers_day",
+      "twelveHourSymbols": [
+        "partlycloudy_day",
+        "lightrainshowers_day"
+      ],
+      "sixHourSymbols": [
+        "fair_night",
+        "partlycloudy_day",
+        "rain",
+        "partlycloudy_day"
+      ],
+      "symbolConfidence": "SomewhatCertain",
+      "precipitation": {
+        "value": 1.6,
+        "probability": 40
+      },
+      "temperature": {
+        "value": 27.1,
+        "min": 17.9,
+        "max": 28.5
+      },
+      "wind": {
+        "min": 1.4,
+        "max": 5.7,
+        "maxGust": 10.8
+      }
+    },
+    {
+      "start": "2023-07-17T00:00:00+03:00",
+      "end": "2023-07-17T23:00:00+03:00",
+      "twentyFourHourSymbol": "partlycloudy_day",
+      "twelveHourSymbols": [
+        "partlycloudy_day",
+        "partlycloudy_day"
+      ],
+      "sixHourSymbols": [
+        "fair_night",
+        "partlycloudy_day",
+        "partlycloudy_day",
+        "partlycloudy_day"
+      ],
+      "symbolConfidence": "SomewhatCertain",
+      "precipitation": {
+        "value": 0.0,
+        "probability": 40
+      },
+      "temperature": {
+        "value": 22.4,
+        "min": 18.2,
+        "max": 23.5
+      },
+      "wind": {
+        "min": 1.7,
+        "max": 4.0,
+        "maxGust": 7.2
+      }
+    },
+    {
+      "start": "2023-07-18T00:00:00+03:00",
+      "end": "2023-07-18T23:00:00+03:00",
+      "twentyFourHourSymbol": "fair_day",
+      "twelveHourSymbols": [
+        "lightrainshowers_day",
+        "fair_day"
+      ],
+      "sixHourSymbols": [
+        "rain",
+        "fair_day",
+        "fair_day",
+        "fair_night"
+      ],
+      "symbolConfidence": "SomewhatCertain",
+      "precipitation": {
+        "value": 1.7,
+        "probability": 40
+      },
+      "temperature": {
+        "value": 18.5,
+        "min": 17.4,
+        "max": 19.3
+      },
+      "wind": {
+        "min": 8.2,
+        "max": 11.2,
+        "maxGust": 11.5
+      }
+    },
+    {
+      "start": "2023-07-19T00:00:00+03:00",
+      "end": "2023-07-19T23:00:00+03:00",
+      "twentyFourHourSymbol": "partlycloudy_day",
+      "twelveHourSymbols": [
+        "partlycloudy_day",
+        "partlycloudy_day"
+      ],
+      "sixHourSymbols": [
+        "fair_day",
+        "partlycloudy_day",
+        "partlycloudy_day",
+        "cloudy"
+      ],
+      "symbolConfidence": "SomewhatCertain",
+      "precipitation": {
+        "value": 0.0,
+        "probability": 40
+      },
+      "temperature": {
+        "value": 18.5,
+        "min": 16.1,
+        "max": 18.6
+      },
+      "wind": {
+        "min": 4.5,
+        "max": 8.3
+      }
+    },
+    {
+      "start": "2023-07-20T00:00:00+03:00",
+      "end": "2023-07-20T23:00:00+03:00",
+      "twentyFourHourSymbol": "lightrainshowers_day",
+      "twelveHourSymbols": [
+        "lightrainshowers_day",
+        "lightrainshowers_day"
+      ],
+      "sixHourSymbols": [
+        "cloudy",
+        "rainshowers_day",
+        "partlycloudy_day",
+        "rainshowers_night"
+      ],
+      "symbolConfidence": "Uncertain",
+      "precipitation": {
+        "value": 4.2,
+        "probability": 50
+      },
+      "temperature": {
+        "value": 18.3,
+        "min": 15.9,
+        "max": 18.5
+      },
+      "wind": {
+        "min": 4.7,
+        "max": 5.4
+      }
+    },
+    {
+      "start": "2023-07-21T00:00:00+03:00",
+      "end": "2023-07-21T23:00:00+03:00",
+      "twentyFourHourSymbol": "partlycloudy_day",
+      "twelveHourSymbols": [
+        "lightrainshowers_day",
+        "partlycloudy_day"
+      ],
+      "sixHourSymbols": [
+        "rainshowers_day",
+        "fair_day",
+        "partlycloudy_day",
+        "fair_night"
+      ],
+      "symbolConfidence": "SomewhatCertain",
+      "precipitation": {
+        "value": 2.5,
+        "probability": 40
+      },
+      "temperature": {
+        "value": 18.1,
+        "min": 15.5,
+        "max": 18.4
+      },
+      "wind": {
+        "min": 4.7,
+        "max": 6.2
+      }
+    },
+    {
+      "start": "2023-07-22T00:00:00+03:00",
+      "end": "2023-07-22T23:00:00+03:00",
+      "twentyFourHourSymbol": "partlycloudy_day",
+      "twelveHourSymbols": [
+        "partlycloudy_day",
+        "partlycloudy_day"
+      ],
+      "sixHourSymbols": [
+        "partlycloudy_day",
+        "partlycloudy_day",
+        "partlycloudy_day",
+        "fair_night"
+      ],
+      "symbolConfidence": "SomewhatCertain",
+      "precipitation": {
+        "value": 0.0,
+        "probability": 60
+      },
+      "temperature": {
+        "value": 18.5,
+        "min": 15.7,
+        "max": 18.8
+      },
+      "wind": {
+        "min": 4.8,
+        "max": 5.3
+      }
+    },
+    {
+      "start": "2023-07-23T00:00:00+03:00",
+      "end": "2023-07-23T23:00:00+03:00",
+      "twentyFourHourSymbol": "lightrainshowers_day",
+      "twelveHourSymbols": [
+        "rainshowers_day",
+        "fair_day"
+      ],
+      "sixHourSymbols": [
+        "rainshowers_day",
+        "rainshowers_day",
+        "fair_day",
+        "fair_night"
+      ],
+      "symbolConfidence": "Uncertain",
+      "precipitation": {
+        "value": 3.9,
+        "probability": 60
+      },
+      "temperature": {
+        "value": 18.2,
+        "min": 15.2,
+        "max": 18.5
+      },
+      "wind": {
+        "min": 4.9,
+        "max": 6.7
+      }
+    },
+    {
+      "start": "2023-07-24T00:00:00+03:00",
+      "end": "2023-07-24T23:00:00+03:00",
+      "twentyFourHourSymbol": "partlycloudy_day",
+      "twelveHourSymbols": [
+        "lightrainshowers_day",
+        "partlycloudy_day"
+      ],
+      "sixHourSymbols": [
+        "rainshowers_day",
+        "partlycloudy_day",
+        "fair_day",
+        "partlycloudy_night"
+      ],
+      "symbolConfidence": "SomewhatCertain",
+      "precipitation": {
+        "value": 3.5,
+        "probability": 50
+      },
+      "temperature": {
+        "value": 18.5,
+        "min": 15.5,
+        "max": 18.7
+      },
+      "wind": {
+        "min": 4.5,
+        "max": 5.3
+      }
+    }
+  ],
+  "shortIntervals": [
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 22.5,
+        "probability": {
+          "tenPercentile": 21.6,
+          "ninetyPercentile": 23.4
+        }
+      },
+      "wind": {
+        "direction": 40,
+        "gust": 2.5,
+        "speed": 1.4,
+        "probability": {
+          "tenPercentile": 1.1,
+          "ninetyPercentile": 2.5
+        }
+      },
+      "feelsLike": {
+        "value": 22.5
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.1
+      },
+      "cloudCover": {
+        "value": 56,
+        "high": 52,
+        "middle": 6,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 48.6
+      },
+      "dewPoint": {
+        "value": 10.8
+      },
+      "start": "2023-07-15T21:00:00+03:00",
+      "end": "2023-07-15T22:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 21.3,
+        "probability": {
+          "tenPercentile": 20.3,
+          "ninetyPercentile": 22.2
+        }
+      },
+      "wind": {
+        "direction": 73,
+        "gust": 2.6,
+        "speed": 2.0,
+        "probability": {
+          "tenPercentile": 1.6,
+          "ninetyPercentile": 3.4
+        }
+      },
+      "feelsLike": {
+        "value": 21.3
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 54,
+        "high": 53,
+        "middle": 2,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 53.6
+      },
+      "dewPoint": {
+        "value": 11.1
+      },
+      "start": "2023-07-15T22:00:00+03:00",
+      "end": "2023-07-15T23:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.9,
+        "probability": {
+          "tenPercentile": 19.2,
+          "ninetyPercentile": 21.3
+        }
+      },
+      "wind": {
+        "direction": 100,
+        "gust": 3.7,
+        "speed": 2.7,
+        "probability": {
+          "tenPercentile": 2.5,
+          "ninetyPercentile": 4.0
+        }
+      },
+      "feelsLike": {
+        "value": 19.9
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 75,
+        "high": 75,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 51.2
+      },
+      "dewPoint": {
+        "value": 9.6
+      },
+      "start": "2023-07-15T23:00:00+03:00",
+      "end": "2023-07-16T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.9,
+        "probability": {
+          "tenPercentile": 18.9,
+          "ninetyPercentile": 21.0
+        }
+      },
+      "wind": {
+        "direction": 117,
+        "gust": 5.0,
+        "speed": 3.5,
+        "probability": {
+          "tenPercentile": 2.9,
+          "ninetyPercentile": 4.4
+        }
+      },
+      "feelsLike": {
+        "value": 19.9
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 100,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 48.8
+      },
+      "dewPoint": {
+        "value": 8.8
+      },
+      "start": "2023-07-16T00:00:00+03:00",
+      "end": "2023-07-16T01:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.9,
+        "probability": {
+          "tenPercentile": 18.8,
+          "ninetyPercentile": 20.8
+        }
+      },
+      "wind": {
+        "direction": 116,
+        "gust": 6.4,
+        "speed": 4.4,
+        "probability": {
+          "tenPercentile": 3.7,
+          "ninetyPercentile": 5.0
+        }
+      },
+      "feelsLike": {
+        "value": 19.9
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 41,
+        "high": 41,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 50.1
+      },
+      "dewPoint": {
+        "value": 9.1
+      },
+      "start": "2023-07-16T01:00:00+03:00",
+      "end": "2023-07-16T02:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "fair_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.6,
+        "probability": {
+          "tenPercentile": 18.4,
+          "ninetyPercentile": 20.6
+        }
+      },
+      "wind": {
+        "direction": 120,
+        "gust": 7.5,
+        "speed": 5.1,
+        "probability": {
+          "tenPercentile": 4.2,
+          "ninetyPercentile": 5.6
+        }
+      },
+      "feelsLike": {
+        "value": 19.6
+      },
+      "pressure": {
+        "value": 1014
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 34,
+        "high": 34,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 50.5
+      },
+      "dewPoint": {
+        "value": 9.1
+      },
+      "start": "2023-07-16T02:00:00+03:00",
+      "end": "2023-07-16T03:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "fair_night",
+        "next6Hours": "fair_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.7,
+        "probability": {
+          "tenPercentile": 18.3,
+          "ninetyPercentile": 20.6
+        }
+      },
+      "wind": {
+        "direction": 126,
+        "gust": 8.4,
+        "speed": 5.6,
+        "probability": {
+          "tenPercentile": 4.7,
+          "ninetyPercentile": 6.6
+        }
+      },
+      "feelsLike": {
+        "value": 19.7
+      },
+      "pressure": {
+        "value": 1014
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 20,
+        "high": 20,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 48.4
+      },
+      "dewPoint": {
+        "value": 8.5
+      },
+      "start": "2023-07-16T03:00:00+03:00",
+      "end": "2023-07-16T04:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.8,
+        "probability": {
+          "tenPercentile": 18.1,
+          "ninetyPercentile": 21.0
+        }
+      },
+      "wind": {
+        "direction": 127,
+        "gust": 9.2,
+        "speed": 6.2,
+        "probability": {
+          "tenPercentile": 4.8,
+          "ninetyPercentile": 6.6
+        }
+      },
+      "feelsLike": {
+        "value": 19.8
+      },
+      "pressure": {
+        "value": 1013
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 40,
+        "high": 40,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 50.1
+      },
+      "dewPoint": {
+        "value": 9.1
+      },
+      "start": "2023-07-16T04:00:00+03:00",
+      "end": "2023-07-16T05:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.8,
+        "probability": {
+          "tenPercentile": 17.9,
+          "ninetyPercentile": 21.1
+        }
+      },
+      "wind": {
+        "direction": 120,
+        "gust": 9.2,
+        "speed": 6.0,
+        "probability": {
+          "tenPercentile": 4.8,
+          "ninetyPercentile": 6.6
+        }
+      },
+      "feelsLike": {
+        "value": 19.8
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 3,
+        "high": 1,
+        "middle": 2,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 53.9
+      },
+      "dewPoint": {
+        "value": 10.2
+      },
+      "start": "2023-07-16T05:00:00+03:00",
+      "end": "2023-07-16T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.7,
+        "probability": {
+          "tenPercentile": 17.6,
+          "ninetyPercentile": 21.0
+        }
+      },
+      "wind": {
+        "direction": 119,
+        "gust": 9.0,
+        "speed": 5.6,
+        "probability": {
+          "tenPercentile": 4.9,
+          "ninetyPercentile": 6.3
+        }
+      },
+      "feelsLike": {
+        "value": 19.7
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 0.1
+      },
+      "cloudCover": {
+        "value": 5,
+        "high": 4,
+        "middle": 1,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 55.7
+      },
+      "dewPoint": {
+        "value": 10.6
+      },
+      "start": "2023-07-16T06:00:00+03:00",
+      "end": "2023-07-16T07:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 20.2,
+        "probability": {
+          "tenPercentile": 18.2,
+          "ninetyPercentile": 21.5
+        }
+      },
+      "wind": {
+        "direction": 124,
+        "gust": 8.4,
+        "speed": 5.4,
+        "probability": {
+          "tenPercentile": 5.3,
+          "ninetyPercentile": 6.7
+        }
+      },
+      "feelsLike": {
+        "value": 20.2
+      },
+      "pressure": {
+        "value": 1011
+      },
+      "uvIndex": {
+        "value": 0.3
+      },
+      "cloudCover": {
+        "value": 73,
+        "high": 73,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 57.2
+      },
+      "dewPoint": {
+        "value": 11.5
+      },
+      "start": "2023-07-16T07:00:00+03:00",
+      "end": "2023-07-16T08:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "fair_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "lightrain"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 21.6,
+        "probability": {
+          "tenPercentile": 19.9,
+          "ninetyPercentile": 22.4
+        }
+      },
+      "wind": {
+        "direction": 127,
+        "gust": 8.8,
+        "speed": 5.8,
+        "probability": {
+          "tenPercentile": 5.6,
+          "ninetyPercentile": 6.9
+        }
+      },
+      "feelsLike": {
+        "value": 21.6
+      },
+      "pressure": {
+        "value": 1011
+      },
+      "uvIndex": {
+        "value": 0.8
+      },
+      "cloudCover": {
+        "value": 29,
+        "high": 29,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 57.8
+      },
+      "dewPoint": {
+        "value": 12.9
+      },
+      "start": "2023-07-16T08:00:00+03:00",
+      "end": "2023-07-16T09:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "cloudy",
+        "next12Hours": "lightrain"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 23.3,
+        "probability": {
+          "tenPercentile": 22.1,
+          "ninetyPercentile": 24.3
+        }
+      },
+      "wind": {
+        "direction": 136,
+        "gust": 8.9,
+        "speed": 5.8,
+        "probability": {
+          "tenPercentile": 5.8,
+          "ninetyPercentile": 6.5
+        }
+      },
+      "feelsLike": {
+        "value": 23.3
+      },
+      "pressure": {
+        "value": 1011
+      },
+      "uvIndex": {
+        "value": 1.7
+      },
+      "cloudCover": {
+        "value": 55,
+        "high": 55,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 55.4
+      },
+      "dewPoint": {
+        "value": 13.8
+      },
+      "start": "2023-07-16T09:00:00+03:00",
+      "end": "2023-07-16T10:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "cloudy",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 24.7,
+        "probability": {
+          "tenPercentile": 23.8,
+          "ninetyPercentile": 26.6
+        }
+      },
+      "wind": {
+        "direction": 146,
+        "gust": 9.0,
+        "speed": 5.9,
+        "probability": {
+          "tenPercentile": 5.9,
+          "ninetyPercentile": 6.8
+        }
+      },
+      "feelsLike": {
+        "value": 24.7
+      },
+      "pressure": {
+        "value": 1010
+      },
+      "uvIndex": {
+        "value": 2.9
+      },
+      "cloudCover": {
+        "value": 93,
+        "high": 93,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 53.8
+      },
+      "dewPoint": {
+        "value": 14.7
+      },
+      "start": "2023-07-16T10:00:00+03:00",
+      "end": "2023-07-16T11:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "cloudy",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 26.5,
+        "probability": {
+          "tenPercentile": 25.5,
+          "ninetyPercentile": 28.2
+        }
+      },
+      "wind": {
+        "direction": 150,
+        "gust": 9.0,
+        "speed": 5.6,
+        "probability": {
+          "tenPercentile": 5.6,
+          "ninetyPercentile": 7.0
+        }
+      },
+      "feelsLike": {
+        "value": 27.0
+      },
+      "pressure": {
+        "value": 1010
+      },
+      "uvIndex": {
+        "value": 4.2
+      },
+      "cloudCover": {
+        "value": 98,
+        "high": 98,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 50.9
+      },
+      "dewPoint": {
+        "value": 15.5
+      },
+      "start": "2023-07-16T11:00:00+03:00",
+      "end": "2023-07-16T12:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "rain",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 28.5,
+        "probability": {
+          "tenPercentile": 27.0,
+          "ninetyPercentile": 29.5
+        }
+      },
+      "wind": {
+        "direction": 147,
+        "gust": 8.9,
+        "speed": 5.7,
+        "probability": {
+          "tenPercentile": 6.0,
+          "ninetyPercentile": 7.0
+        }
+      },
+      "feelsLike": {
+        "value": 29.0
+      },
+      "pressure": {
+        "value": 1009
+      },
+      "uvIndex": {
+        "value": 5.3
+      },
+      "cloudCover": {
+        "value": 90,
+        "high": 90,
+        "middle": 2,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 47.7
+      },
+      "dewPoint": {
+        "value": 16.3
+      },
+      "start": "2023-07-16T12:00:00+03:00",
+      "end": "2023-07-16T13:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "rain",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 2,
+        "probability": 2
+      },
+      "temperature": {
+        "value": 28.0,
+        "probability": {
+          "tenPercentile": 26.0,
+          "ninetyPercentile": 29.4
+        }
+      },
+      "wind": {
+        "direction": 191,
+        "gust": 10.4,
+        "speed": 6.8,
+        "probability": {
+          "tenPercentile": 6.5,
+          "ninetyPercentile": 9.2
+        }
+      },
+      "feelsLike": {
+        "value": 29.0
+      },
+      "pressure": {
+        "value": 1009
+      },
+      "uvIndex": {
+        "value": 5.8
+      },
+      "cloudCover": {
+        "value": 96,
+        "high": 92,
+        "middle": 46,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 55.4
+      },
+      "dewPoint": {
+        "value": 18.3
+      },
+      "start": "2023-07-16T13:00:00+03:00",
+      "end": "2023-07-16T14:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "rain",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.4,
+        "value": 0.0,
+        "pop": 14,
+        "probability": 14
+      },
+      "temperature": {
+        "value": 27.1,
+        "probability": {
+          "tenPercentile": 24.4,
+          "ninetyPercentile": 27.8
+        }
+      },
+      "wind": {
+        "direction": 192,
+        "gust": 13.1,
+        "speed": 7.8,
+        "probability": {
+          "tenPercentile": 7.4,
+          "ninetyPercentile": 9.6
+        }
+      },
+      "feelsLike": {
+        "value": 28.0
+      },
+      "pressure": {
+        "value": 1009
+      },
+      "uvIndex": {
+        "value": 5.7
+      },
+      "cloudCover": {
+        "value": 67,
+        "high": 64,
+        "middle": 7,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 59.1
+      },
+      "dewPoint": {
+        "value": 18.5
+      },
+      "start": "2023-07-16T14:00:00+03:00",
+      "end": "2023-07-16T15:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "rain",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.3,
+        "value": 0.0,
+        "pop": 13,
+        "probability": 13
+      },
+      "temperature": {
+        "value": 24.8,
+        "probability": {
+          "tenPercentile": 20.1,
+          "ninetyPercentile": 25.9
+        }
+      },
+      "wind": {
+        "direction": 219,
+        "gust": 11.5,
+        "speed": 7.2,
+        "probability": {
+          "tenPercentile": 5.7,
+          "ninetyPercentile": 8.6
+        }
+      },
+      "feelsLike": {
+        "value": 24.8
+      },
+      "pressure": {
+        "value": 1010
+      },
+      "uvIndex": {
+        "value": 5.1
+      },
+      "cloudCover": {
+        "value": 86,
+        "high": 37,
+        "middle": 77,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 69.9
+      },
+      "dewPoint": {
+        "value": 19.1
+      },
+      "start": "2023-07-16T15:00:00+03:00",
+      "end": "2023-07-16T16:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.2,
+        "value": 0.0,
+        "pop": 14,
+        "probability": 14
+      },
+      "temperature": {
+        "value": 21.8,
+        "probability": {
+          "tenPercentile": 19.9,
+          "ninetyPercentile": 22.8
+        }
+      },
+      "wind": {
+        "direction": 262,
+        "gust": 11.8,
+        "speed": 8.0,
+        "probability": {
+          "tenPercentile": 4.2,
+          "ninetyPercentile": 8.0
+        }
+      },
+      "feelsLike": {
+        "value": 21.8
+      },
+      "pressure": {
+        "value": 1010
+      },
+      "uvIndex": {
+        "value": 4.1
+      },
+      "cloudCover": {
+        "value": 99,
+        "high": 77,
+        "middle": 94,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 79.2
+      },
+      "dewPoint": {
+        "value": 18.2
+      },
+      "start": "2023-07-16T16:00:00+03:00",
+      "end": "2023-07-16T17:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 10,
+        "clouds": 3,
+        "precipPhase": "Rain",
+        "precip": 3
+      },
+      "symbolCode": {
+        "next1Hour": "heavyrain",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 1.4,
+        "value": 1.2,
+        "pop": 39,
+        "probability": 39
+      },
+      "temperature": {
+        "value": 20.1,
+        "probability": {
+          "tenPercentile": 19.2,
+          "ninetyPercentile": 21.6
+        }
+      },
+      "wind": {
+        "direction": 286,
+        "gust": 13.8,
+        "speed": 7.9,
+        "probability": {
+          "tenPercentile": 4.7,
+          "ninetyPercentile": 6.6
+        }
+      },
+      "feelsLike": {
+        "value": 20.1
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 3.1
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 97,
+        "middle": 100,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 87.9
+      },
+      "dewPoint": {
+        "value": 18.2
+      },
+      "start": "2023-07-16T17:00:00+03:00",
+      "end": "2023-07-16T18:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.9,
+        "value": 0.0,
+        "pop": 20,
+        "probability": 20
+      },
+      "temperature": {
+        "value": 19.5,
+        "probability": {
+          "tenPercentile": 18.4,
+          "ninetyPercentile": 21.0
+        }
+      },
+      "wind": {
+        "direction": 324,
+        "gust": 10.8,
+        "speed": 1.4,
+        "probability": {
+          "tenPercentile": 2.3,
+          "ninetyPercentile": 7.7
+        }
+      },
+      "feelsLike": {
+        "value": 19.5
+      },
+      "pressure": {
+        "value": 1011
+      },
+      "uvIndex": {
+        "value": 1.9
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 98,
+        "middle": 89,
+        "low": 2,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 94.2
+      },
+      "dewPoint": {
+        "value": 18.8
+      },
+      "start": "2023-07-16T18:00:00+03:00",
+      "end": "2023-07-16T19:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "fair_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 3,
+        "probability": 3
+      },
+      "temperature": {
+        "value": 19.5,
+        "probability": {
+          "tenPercentile": 18.4,
+          "ninetyPercentile": 21.0
+        }
+      },
+      "wind": {
+        "direction": 248,
+        "gust": 6.8,
+        "speed": 4.9,
+        "probability": {
+          "tenPercentile": 1.9,
+          "ninetyPercentile": 5.8
+        }
+      },
+      "feelsLike": {
+        "value": 19.5
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 1.0
+      },
+      "cloudCover": {
+        "value": 97,
+        "high": 97,
+        "middle": 57,
+        "low": 3,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 94.6
+      },
+      "dewPoint": {
+        "value": 18.8
+      },
+      "start": "2023-07-16T19:00:00+03:00",
+      "end": "2023-07-16T20:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "fair_night",
+        "next12Hours": "fair_night"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 3,
+        "probability": 3
+      },
+      "temperature": {
+        "value": 19.5,
+        "probability": {
+          "tenPercentile": 18.4,
+          "ninetyPercentile": 20.7
+        }
+      },
+      "wind": {
+        "direction": 258,
+        "gust": 7.4,
+        "speed": 3.4,
+        "probability": {
+          "tenPercentile": 2.8,
+          "ninetyPercentile": 6.9
+        }
+      },
+      "feelsLike": {
+        "value": 19.5
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 0.4
+      },
+      "cloudCover": {
+        "value": 78,
+        "high": 10,
+        "middle": 74,
+        "low": 12,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 91.9
+      },
+      "dewPoint": {
+        "value": 18.3
+      },
+      "start": "2023-07-16T20:00:00+03:00",
+      "end": "2023-07-16T21:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.2,
+        "probability": {
+          "tenPercentile": 18.2,
+          "ninetyPercentile": 20.5
+        }
+      },
+      "wind": {
+        "direction": 263,
+        "gust": 8.6,
+        "speed": 5.3,
+        "probability": {
+          "tenPercentile": 2.6,
+          "ninetyPercentile": 6.5
+        }
+      },
+      "feelsLike": {
+        "value": 19.2
+      },
+      "pressure": {
+        "value": 1013
+      },
+      "uvIndex": {
+        "value": 0.1
+      },
+      "cloudCover": {
+        "value": 51,
+        "high": 3,
+        "middle": 50,
+        "low": 6,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 92.2
+      },
+      "dewPoint": {
+        "value": 18.1
+      },
+      "start": "2023-07-16T21:00:00+03:00",
+      "end": "2023-07-16T22:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.1,
+        "probability": {
+          "tenPercentile": 18.2,
+          "ninetyPercentile": 20.0
+        }
+      },
+      "wind": {
+        "direction": 247,
+        "gust": 7.4,
+        "speed": 3.2,
+        "probability": {
+          "tenPercentile": 2.4,
+          "ninetyPercentile": 5.3
+        }
+      },
+      "feelsLike": {
+        "value": 19.1
+      },
+      "pressure": {
+        "value": 1014
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 6,
+        "high": 0,
+        "middle": 6,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 88.5
+      },
+      "dewPoint": {
+        "value": 17.3
+      },
+      "start": "2023-07-16T22:00:00+03:00",
+      "end": "2023-07-16T23:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 18.4,
+        "probability": {
+          "tenPercentile": 17.5,
+          "ninetyPercentile": 20.2
+        }
+      },
+      "wind": {
+        "direction": 237,
+        "gust": 4.5,
+        "speed": 2.3,
+        "probability": {
+          "tenPercentile": 2.1,
+          "ninetyPercentile": 4.1
+        }
+      },
+      "feelsLike": {
+        "value": 18.4
+      },
+      "pressure": {
+        "value": 1014
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 0,
+        "high": 0,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 84.4
+      },
+      "dewPoint": {
+        "value": 15.9
+      },
+      "start": "2023-07-16T23:00:00+03:00",
+      "end": "2023-07-17T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 17.9,
+        "probability": {
+          "tenPercentile": 17.0,
+          "ninetyPercentile": 20.1
+        }
+      },
+      "wind": {
+        "direction": 188,
+        "gust": 3.0,
+        "speed": 1.7,
+        "probability": {
+          "tenPercentile": 1.7,
+          "ninetyPercentile": 4.4
+        }
+      },
+      "feelsLike": {
+        "value": 17.9
+      },
+      "pressure": {
+        "value": 1014
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 1,
+        "high": 0,
+        "middle": 1,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 85.2
+      },
+      "dewPoint": {
+        "value": 15.6
+      },
+      "start": "2023-07-17T00:00:00+03:00",
+      "end": "2023-07-17T01:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 18.2,
+        "probability": {
+          "tenPercentile": 17.0,
+          "ninetyPercentile": 20.1
+        }
+      },
+      "wind": {
+        "direction": 219,
+        "gust": 4.2,
+        "speed": 3.1,
+        "probability": {
+          "tenPercentile": 2.6,
+          "ninetyPercentile": 4.5
+        }
+      },
+      "feelsLike": {
+        "value": 18.2
+      },
+      "pressure": {
+        "value": 1014
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 4,
+        "high": 1,
+        "middle": 2,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 82.2
+      },
+      "dewPoint": {
+        "value": 15.2
+      },
+      "start": "2023-07-17T01:00:00+03:00",
+      "end": "2023-07-17T02:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "fair_night",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 18.3,
+        "probability": {
+          "tenPercentile": 17.5,
+          "ninetyPercentile": 19.9
+        }
+      },
+      "wind": {
+        "direction": 238,
+        "gust": 4.9,
+        "speed": 3.3,
+        "probability": {
+          "tenPercentile": 3.0,
+          "ninetyPercentile": 4.4
+        }
+      },
+      "feelsLike": {
+        "value": 18.3
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 19,
+        "high": 19,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 82.2
+      },
+      "dewPoint": {
+        "value": 15.4
+      },
+      "start": "2023-07-17T02:00:00+03:00",
+      "end": "2023-07-17T03:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 18.6,
+        "probability": {
+          "tenPercentile": 17.5,
+          "ninetyPercentile": 19.8
+        }
+      },
+      "wind": {
+        "direction": 254,
+        "gust": 5.6,
+        "speed": 4.1,
+        "probability": {
+          "tenPercentile": 2.6,
+          "ninetyPercentile": 4.9
+        }
+      },
+      "feelsLike": {
+        "value": 18.6
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 3,
+        "high": 1,
+        "middle": 2,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 83.9
+      },
+      "dewPoint": {
+        "value": 16.0
+      },
+      "start": "2023-07-17T03:00:00+03:00",
+      "end": "2023-07-17T04:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.0,
+        "probability": {
+          "tenPercentile": 17.5,
+          "ninetyPercentile": 19.7
+        }
+      },
+      "wind": {
+        "direction": 253,
+        "gust": 6.6,
+        "speed": 4.6,
+        "probability": {
+          "tenPercentile": 2.9,
+          "ninetyPercentile": 5.2
+        }
+      },
+      "feelsLike": {
+        "value": 19.0
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 11,
+        "high": 0,
+        "middle": 11,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 80.9
+      },
+      "dewPoint": {
+        "value": 15.8
+      },
+      "start": "2023-07-17T04:00:00+03:00",
+      "end": "2023-07-17T05:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.0,
+        "probability": {
+          "tenPercentile": 17.1,
+          "ninetyPercentile": 19.8
+        }
+      },
+      "wind": {
+        "direction": 255,
+        "gust": 6.4,
+        "speed": 3.6,
+        "probability": {
+          "tenPercentile": 2.5,
+          "ninetyPercentile": 4.5
+        }
+      },
+      "feelsLike": {
+        "value": 19.0
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 79,
+        "high": 0,
+        "middle": 79,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 81.3
+      },
+      "dewPoint": {
+        "value": 15.9
+      },
+      "start": "2023-07-17T05:00:00+03:00",
+      "end": "2023-07-17T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 18.9,
+        "probability": {
+          "tenPercentile": 16.9,
+          "ninetyPercentile": 19.7
+        }
+      },
+      "wind": {
+        "direction": 219,
+        "gust": 5.0,
+        "speed": 2.6,
+        "probability": {
+          "tenPercentile": 1.8,
+          "ninetyPercentile": 4.3
+        }
+      },
+      "feelsLike": {
+        "value": 18.9
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.1
+      },
+      "cloudCover": {
+        "value": 88,
+        "high": 0,
+        "middle": 88,
+        "low": 1,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 83.8
+      },
+      "dewPoint": {
+        "value": 16.2
+      },
+      "start": "2023-07-17T06:00:00+03:00",
+      "end": "2023-07-17T07:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "fair_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.1,
+        "probability": {
+          "tenPercentile": 17.4,
+          "ninetyPercentile": 20.0
+        }
+      },
+      "wind": {
+        "direction": 202,
+        "gust": 4.6,
+        "speed": 3.3,
+        "probability": {
+          "tenPercentile": 2.3,
+          "ninetyPercentile": 4.6
+        }
+      },
+      "feelsLike": {
+        "value": 19.1
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.3
+      },
+      "cloudCover": {
+        "value": 79,
+        "high": 0,
+        "middle": 78,
+        "low": 8,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 85.7
+      },
+      "dewPoint": {
+        "value": 16.9
+      },
+      "start": "2023-07-17T07:00:00+03:00",
+      "end": "2023-07-17T08:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "fair_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.4,
+        "probability": {
+          "tenPercentile": 18.2,
+          "ninetyPercentile": 20.4
+        }
+      },
+      "wind": {
+        "direction": 235,
+        "gust": 5.4,
+        "speed": 3.8,
+        "probability": {
+          "tenPercentile": 2.0,
+          "ninetyPercentile": 5.4
+        }
+      },
+      "feelsLike": {
+        "value": 19.4
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 0.9
+      },
+      "cloudCover": {
+        "value": 64,
+        "high": 0,
+        "middle": 61,
+        "low": 6,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 80.8
+      },
+      "dewPoint": {
+        "value": 16.3
+      },
+      "start": "2023-07-17T08:00:00+03:00",
+      "end": "2023-07-17T09:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "fair_day",
+        "next6Hours": "fair_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 2,
+        "probability": 2
+      },
+      "temperature": {
+        "value": 20.0,
+        "probability": {
+          "tenPercentile": 18.5,
+          "ninetyPercentile": 20.7
+        }
+      },
+      "wind": {
+        "direction": 219,
+        "gust": 5.6,
+        "speed": 3.6,
+        "probability": {
+          "tenPercentile": 1.7,
+          "ninetyPercentile": 5.8
+        }
+      },
+      "feelsLike": {
+        "value": 20.0
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 1.8
+      },
+      "cloudCover": {
+        "value": 23,
+        "high": 0,
+        "middle": 20,
+        "low": 4,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 78.1
+      },
+      "dewPoint": {
+        "value": 16.1
+      },
+      "start": "2023-07-17T09:00:00+03:00",
+      "end": "2023-07-17T10:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "fair_day",
+        "next6Hours": "fair_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 5,
+        "probability": 5
+      },
+      "temperature": {
+        "value": 20.2,
+        "probability": {
+          "tenPercentile": 18.5,
+          "ninetyPercentile": 21.2
+        }
+      },
+      "wind": {
+        "direction": 220,
+        "gust": 5.7,
+        "speed": 3.1,
+        "probability": {
+          "tenPercentile": 1.5,
+          "ninetyPercentile": 5.1
+        }
+      },
+      "feelsLike": {
+        "value": 20.2
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 3.0
+      },
+      "cloudCover": {
+        "value": 21,
+        "high": 0,
+        "middle": 19,
+        "low": 3,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 80.9
+      },
+      "dewPoint": {
+        "value": 17.1
+      },
+      "start": "2023-07-17T10:00:00+03:00",
+      "end": "2023-07-17T11:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "fair_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 1,
+        "probability": 1
+      },
+      "temperature": {
+        "value": 20.6,
+        "probability": {
+          "tenPercentile": 19.0,
+          "ninetyPercentile": 21.8
+        }
+      },
+      "wind": {
+        "direction": 229,
+        "gust": 5.0,
+        "speed": 3.0,
+        "probability": {
+          "tenPercentile": 1.7,
+          "ninetyPercentile": 4.0
+        }
+      },
+      "feelsLike": {
+        "value": 20.6
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 4.3
+      },
+      "cloudCover": {
+        "value": 20,
+        "high": 0,
+        "middle": 10,
+        "low": 11,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 78.5
+      },
+      "dewPoint": {
+        "value": 17.0
+      },
+      "start": "2023-07-17T11:00:00+03:00",
+      "end": "2023-07-17T12:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 6,
+        "probability": 6
+      },
+      "temperature": {
+        "value": 21.0,
+        "probability": {
+          "tenPercentile": 19.5,
+          "ninetyPercentile": 22.4
+        }
+      },
+      "wind": {
+        "direction": 226,
+        "gust": 4.9,
+        "speed": 2.1,
+        "probability": {
+          "tenPercentile": 1.2,
+          "ninetyPercentile": 3.3
+        }
+      },
+      "feelsLike": {
+        "value": 21.0
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 5.5
+      },
+      "cloudCover": {
+        "value": 49,
+        "high": 0,
+        "middle": 19,
+        "low": 36,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 74.4
+      },
+      "dewPoint": {
+        "value": 16.3
+      },
+      "start": "2023-07-17T12:00:00+03:00",
+      "end": "2023-07-17T13:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "fair_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 4,
+        "probability": 4
+      },
+      "temperature": {
+        "value": 21.6,
+        "probability": {
+          "tenPercentile": 19.6,
+          "ninetyPercentile": 24.0
+        }
+      },
+      "wind": {
+        "direction": 220,
+        "gust": 5.6,
+        "speed": 3.4,
+        "probability": {
+          "tenPercentile": 1.3,
+          "ninetyPercentile": 3.7
+        }
+      },
+      "feelsLike": {
+        "value": 21.6
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "uvIndex": {
+        "value": 6.2
+      },
+      "cloudCover": {
+        "value": 29,
+        "high": 0,
+        "middle": 15,
+        "low": 15,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 73.3
+      },
+      "dewPoint": {
+        "value": 16.6
+      },
+      "start": "2023-07-17T13:00:00+03:00",
+      "end": "2023-07-17T14:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "fair_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 1,
+        "probability": 1
+      },
+      "temperature": {
+        "value": 22.4,
+        "probability": {
+          "tenPercentile": 19.5,
+          "ninetyPercentile": 24.0
+        }
+      },
+      "wind": {
+        "direction": 224,
+        "gust": 5.6,
+        "speed": 3.0,
+        "probability": {
+          "tenPercentile": 1.6,
+          "ninetyPercentile": 4.8
+        }
+      },
+      "feelsLike": {
+        "value": 22.4
+      },
+      "pressure": {
+        "value": 1014
+      },
+      "uvIndex": {
+        "value": 6.1
+      },
+      "cloudCover": {
+        "value": 38,
+        "high": 0,
+        "middle": 14,
+        "low": 33,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 64.1
+      },
+      "dewPoint": {
+        "value": 15.2
+      },
+      "start": "2023-07-17T14:00:00+03:00",
+      "end": "2023-07-17T15:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "fair_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 3,
+        "probability": 3
+      },
+      "temperature": {
+        "value": 22.7,
+        "probability": {
+          "tenPercentile": 19.8,
+          "ninetyPercentile": 24.5
+        }
+      },
+      "wind": {
+        "direction": 216,
+        "gust": 5.9,
+        "speed": 3.6,
+        "probability": {
+          "tenPercentile": 1.6,
+          "ninetyPercentile": 4.8
+        }
+      },
+      "feelsLike": {
+        "value": 22.7
+      },
+      "pressure": {
+        "value": 1014
+      },
+      "uvIndex": {
+        "value": 5.4
+      },
+      "cloudCover": {
+        "value": 26,
+        "high": 0,
+        "middle": 18,
+        "low": 11,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 66.1
+      },
+      "dewPoint": {
+        "value": 15.9
+      },
+      "start": "2023-07-17T15:00:00+03:00",
+      "end": "2023-07-17T16:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 10,
+        "probability": 10
+      },
+      "temperature": {
+        "value": 22.8,
+        "probability": {
+          "tenPercentile": 19.2,
+          "ninetyPercentile": 24.8
+        }
+      },
+      "wind": {
+        "direction": 233,
+        "gust": 7.8,
+        "speed": 5.3,
+        "probability": {
+          "tenPercentile": 1.5,
+          "ninetyPercentile": 7.0
+        }
+      },
+      "feelsLike": {
+        "value": 22.8
+      },
+      "pressure": {
+        "value": 1013
+      },
+      "uvIndex": {
+        "value": 4.3
+      },
+      "cloudCover": {
+        "value": 51,
+        "high": 0,
+        "middle": 50,
+        "low": 2,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 65.6
+      },
+      "dewPoint": {
+        "value": 15.9
+      },
+      "start": "2023-07-17T16:00:00+03:00",
+      "end": "2023-07-17T17:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 8,
+        "probability": 8
+      },
+      "temperature": {
+        "value": 23.5,
+        "probability": {
+          "tenPercentile": 19.0,
+          "ninetyPercentile": 24.6
+        }
+      },
+      "wind": {
+        "direction": 194,
+        "gust": 7.8,
+        "speed": 4.7,
+        "probability": {
+          "tenPercentile": 1.7,
+          "ninetyPercentile": 5.9
+        }
+      },
+      "feelsLike": {
+        "value": 23.5
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 3.0
+      },
+      "cloudCover": {
+        "value": 56,
+        "high": 0,
+        "middle": 56,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 63.5
+      },
+      "dewPoint": {
+        "value": 16.2
+      },
+      "start": "2023-07-17T17:00:00+03:00",
+      "end": "2023-07-17T18:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 1.0,
+        "value": 0.0,
+        "pop": 30,
+        "probability": 30
+      },
+      "temperature": {
+        "value": 21.9,
+        "probability": {
+          "tenPercentile": 18.8,
+          "ninetyPercentile": 22.7
+        }
+      },
+      "wind": {
+        "direction": 239,
+        "gust": 7.2,
+        "speed": 4.0,
+        "probability": {
+          "tenPercentile": 1.8,
+          "ninetyPercentile": 5.2
+        }
+      },
+      "feelsLike": {
+        "value": 21.9
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 1.8
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 0,
+        "middle": 100,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 75.8
+      },
+      "dewPoint": {
+        "value": 17.4
+      },
+      "start": "2023-07-17T18:00:00+03:00",
+      "end": "2023-07-17T19:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.8,
+        "value": 0.0,
+        "pop": 27,
+        "probability": 27
+      },
+      "temperature": {
+        "value": 21.1,
+        "probability": {
+          "tenPercentile": 17.8,
+          "ninetyPercentile": 22.9
+        }
+      },
+      "wind": {
+        "direction": 248,
+        "gust": 7.8,
+        "speed": 5.7,
+        "probability": {
+          "tenPercentile": 4.1,
+          "ninetyPercentile": 6.4
+        }
+      },
+      "feelsLike": {
+        "value": 21.1
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 0.9
+      },
+      "cloudCover": {
+        "value": 99,
+        "high": 0,
+        "middle": 99,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 75.8
+      },
+      "dewPoint": {
+        "value": 16.7
+      },
+      "start": "2023-07-17T19:00:00+03:00",
+      "end": "2023-07-17T20:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 4,
+        "probability": 4
+      },
+      "temperature": {
+        "value": 19.6,
+        "probability": {
+          "tenPercentile": 17.4,
+          "ninetyPercentile": 21.5
+        }
+      },
+      "wind": {
+        "direction": 283,
+        "gust": 12.6,
+        "speed": 7.9,
+        "probability": {
+          "tenPercentile": 2.8,
+          "ninetyPercentile": 6.1
+        }
+      },
+      "feelsLike": {
+        "value": 19.6
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 0.4
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 6,
+        "middle": 100,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 84.4
+      },
+      "dewPoint": {
+        "value": 17.0
+      },
+      "start": "2023-07-17T20:00:00+03:00",
+      "end": "2023-07-17T21:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 3,
+        "probability": 3
+      },
+      "temperature": {
+        "value": 19.1,
+        "probability": {
+          "tenPercentile": 17.5,
+          "ninetyPercentile": 20.7
+        }
+      },
+      "wind": {
+        "direction": 275,
+        "gust": 10.7,
+        "speed": 5.4,
+        "probability": {
+          "tenPercentile": 1.4,
+          "ninetyPercentile": 6.2
+        }
+      },
+      "feelsLike": {
+        "value": 19.1
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 0.1
+      },
+      "cloudCover": {
+        "value": 75,
+        "high": 0,
+        "middle": 75,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 87.9
+      },
+      "dewPoint": {
+        "value": 17.3
+      },
+      "start": "2023-07-17T21:00:00+03:00",
+      "end": "2023-07-17T22:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 3,
+        "probability": 3
+      },
+      "temperature": {
+        "value": 18.8,
+        "probability": {
+          "tenPercentile": 17.5,
+          "ninetyPercentile": 19.8
+        }
+      },
+      "wind": {
+        "direction": 251,
+        "gust": 7.5,
+        "speed": 3.5,
+        "probability": {
+          "tenPercentile": 2.8,
+          "ninetyPercentile": 5.6
+        }
+      },
+      "feelsLike": {
+        "value": 18.8
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 71,
+        "high": 1,
+        "middle": 70,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 89.9
+      },
+      "dewPoint": {
+        "value": 17.3
+      },
+      "start": "2023-07-17T22:00:00+03:00",
+      "end": "2023-07-17T23:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.1,
+        "probability": {
+          "tenPercentile": 17.6,
+          "ninetyPercentile": 19.7
+        }
+      },
+      "wind": {
+        "direction": 251,
+        "gust": 8.8,
+        "speed": 6.1,
+        "probability": {
+          "tenPercentile": 4.2,
+          "ninetyPercentile": 6.9
+        }
+      },
+      "feelsLike": {
+        "value": 19.1
+      },
+      "pressure": {
+        "value": 1013
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 50,
+        "high": 36,
+        "middle": 24,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 82.3
+      },
+      "dewPoint": {
+        "value": 16.2
+      },
+      "start": "2023-07-17T23:00:00+03:00",
+      "end": "2023-07-18T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.1,
+        "probability": {
+          "tenPercentile": 17.5,
+          "ninetyPercentile": 19.7
+        }
+      },
+      "wind": {
+        "direction": 262,
+        "gust": 9.7,
+        "speed": 6.3,
+        "probability": {
+          "tenPercentile": 5.4,
+          "ninetyPercentile": 7.9
+        }
+      },
+      "feelsLike": {
+        "value": 19.1
+      },
+      "pressure": {
+        "value": 1013
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 93,
+        "high": 82,
+        "middle": 74,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 76.0
+      },
+      "dewPoint": {
+        "value": 14.9
+      },
+      "start": "2023-07-18T00:00:00+03:00",
+      "end": "2023-07-18T01:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 18.9,
+        "probability": {
+          "tenPercentile": 17.4,
+          "ninetyPercentile": 19.6
+        }
+      },
+      "wind": {
+        "direction": 254,
+        "gust": 8.8,
+        "speed": 5.7,
+        "probability": {
+          "tenPercentile": 6.6,
+          "ninetyPercentile": 8.0
+        }
+      },
+      "feelsLike": {
+        "value": 18.9
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 98,
+        "high": 98,
+        "middle": 9,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 76.6
+      },
+      "dewPoint": {
+        "value": 14.9
+      },
+      "start": "2023-07-18T01:00:00+03:00",
+      "end": "2023-07-18T02:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 18.8,
+        "probability": {
+          "tenPercentile": 17.2,
+          "ninetyPercentile": 19.5
+        }
+      },
+      "wind": {
+        "direction": 239,
+        "gust": 10.0,
+        "speed": 6.3,
+        "probability": {
+          "tenPercentile": 6.4,
+          "ninetyPercentile": 8.5
+        }
+      },
+      "feelsLike": {
+        "value": 18.8
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 100,
+        "middle": 68,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 80.0
+      },
+      "dewPoint": {
+        "value": 15.4
+      },
+      "start": "2023-07-18T02:00:00+03:00",
+      "end": "2023-07-18T03:00:00+03:00"
+    }
+  ],
+  "longIntervals": [
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 22.5,
+        "min": 19.6,
+        "max": 21.3,
+        "probability": {
+          "tenPercentile": 21.6,
+          "ninetyPercentile": 23.4
+        }
+      },
+      "wind": {
+        "direction": 40,
+        "gust": 2.5,
+        "speed": 1.4,
+        "probability": {
+          "tenPercentile": 1.1,
+          "ninetyPercentile": 2.5
+        }
+      },
+      "feelsLike": {
+        "value": 22.5
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "cloudCover": {
+        "value": 56,
+        "high": 52,
+        "middle": 6,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 48.6
+      },
+      "dewPoint": {
+        "value": 10.8
+      },
+      "start": "2023-07-15T21:00:00+03:00",
+      "end": "2023-07-16T00:00:00+03:00",
+      "nominalStart": "2023-07-15T18:00:00+03:00",
+      "nominalEnd": "2023-07-16T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.9,
+        "min": 19.6,
+        "max": 19.9,
+        "probability": {
+          "tenPercentile": 18.9,
+          "ninetyPercentile": 21.0
+        }
+      },
+      "wind": {
+        "direction": 117,
+        "gust": 5.0,
+        "speed": 3.5,
+        "probability": {
+          "tenPercentile": 2.9,
+          "ninetyPercentile": 4.4
+        }
+      },
+      "feelsLike": {
+        "value": 19.9
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 100,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 48.8
+      },
+      "dewPoint": {
+        "value": 8.8
+      },
+      "start": "2023-07-16T00:00:00+03:00",
+      "end": "2023-07-16T06:00:00+03:00",
+      "nominalStart": "2023-07-16T00:00:00+03:00",
+      "nominalEnd": "2023-07-16T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 19.7,
+        "min": 20.2,
+        "max": 28.5,
+        "probability": {
+          "tenPercentile": 17.6,
+          "ninetyPercentile": 21.0
+        }
+      },
+      "wind": {
+        "direction": 119,
+        "gust": 9.0,
+        "speed": 5.6,
+        "probability": {
+          "tenPercentile": 4.9,
+          "ninetyPercentile": 6.3
+        }
+      },
+      "feelsLike": {
+        "value": 19.7
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "cloudCover": {
+        "value": 5,
+        "high": 4,
+        "middle": 1,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 55.7
+      },
+      "dewPoint": {
+        "value": 10.6
+      },
+      "start": "2023-07-16T06:00:00+03:00",
+      "end": "2023-07-16T12:00:00+03:00",
+      "nominalStart": "2023-07-16T06:00:00+03:00",
+      "nominalEnd": "2023-07-16T12:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 9,
+        "clouds": 3,
+        "precipPhase": "Rain",
+        "precip": 2
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "rain",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 2.1,
+        "value": 1.6,
+        "pop": 38,
+        "probability": 38
+      },
+      "temperature": {
+        "value": 28.5,
+        "min": 19.5,
+        "max": 28.0,
+        "probability": {
+          "tenPercentile": 27.0,
+          "ninetyPercentile": 29.5
+        }
+      },
+      "wind": {
+        "direction": 147,
+        "gust": 8.9,
+        "speed": 5.7,
+        "probability": {
+          "tenPercentile": 6.0,
+          "ninetyPercentile": 7.0
+        }
+      },
+      "feelsLike": {
+        "value": 29.0
+      },
+      "pressure": {
+        "value": 1009
+      },
+      "cloudCover": {
+        "value": 90,
+        "high": 90,
+        "middle": 2,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 47.7
+      },
+      "dewPoint": {
+        "value": 16.3
+      },
+      "start": "2023-07-16T12:00:00+03:00",
+      "end": "2023-07-16T18:00:00+03:00",
+      "nominalStart": "2023-07-16T12:00:00+03:00",
+      "nominalEnd": "2023-07-16T18:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 1.0,
+        "value": 0.0,
+        "pop": 12,
+        "probability": 12
+      },
+      "temperature": {
+        "value": 19.5,
+        "min": 17.9,
+        "max": 19.5,
+        "probability": {
+          "tenPercentile": 18.4,
+          "ninetyPercentile": 21.0
+        }
+      },
+      "wind": {
+        "direction": 324,
+        "gust": 10.8,
+        "speed": 1.4,
+        "probability": {
+          "tenPercentile": 2.3,
+          "ninetyPercentile": 7.7
+        }
+      },
+      "feelsLike": {
+        "value": 19.5
+      },
+      "pressure": {
+        "value": 1011
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 98,
+        "middle": 89,
+        "low": 2,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 94.2
+      },
+      "dewPoint": {
+        "value": 18.8
+      },
+      "start": "2023-07-16T18:00:00+03:00",
+      "end": "2023-07-17T00:00:00+03:00",
+      "nominalStart": "2023-07-16T18:00:00+03:00",
+      "nominalEnd": "2023-07-17T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 0,
+        "probability": 0
+      },
+      "temperature": {
+        "value": 17.9,
+        "min": 18.2,
+        "max": 19.0,
+        "probability": {
+          "tenPercentile": 17.0,
+          "ninetyPercentile": 20.1
+        }
+      },
+      "wind": {
+        "direction": 188,
+        "gust": 3.0,
+        "speed": 1.7,
+        "probability": {
+          "tenPercentile": 1.7,
+          "ninetyPercentile": 4.4
+        }
+      },
+      "feelsLike": {
+        "value": 17.9
+      },
+      "pressure": {
+        "value": 1014
+      },
+      "cloudCover": {
+        "value": 1,
+        "high": 0,
+        "middle": 1,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 85.2
+      },
+      "dewPoint": {
+        "value": 15.6
+      },
+      "start": "2023-07-17T00:00:00+03:00",
+      "end": "2023-07-17T06:00:00+03:00",
+      "nominalStart": "2023-07-17T00:00:00+03:00",
+      "nominalEnd": "2023-07-17T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 1,
+        "probability": 1
+      },
+      "temperature": {
+        "value": 18.9,
+        "min": 19.1,
+        "max": 21.0,
+        "probability": {
+          "tenPercentile": 16.9,
+          "ninetyPercentile": 19.7
+        }
+      },
+      "wind": {
+        "direction": 219,
+        "gust": 5.0,
+        "speed": 2.6,
+        "probability": {
+          "tenPercentile": 1.8,
+          "ninetyPercentile": 4.3
+        }
+      },
+      "feelsLike": {
+        "value": 18.9
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "cloudCover": {
+        "value": 88,
+        "high": 0,
+        "middle": 88,
+        "low": 1,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 83.8
+      },
+      "dewPoint": {
+        "value": 16.2
+      },
+      "start": "2023-07-17T06:00:00+03:00",
+      "end": "2023-07-17T12:00:00+03:00",
+      "nominalStart": "2023-07-17T06:00:00+03:00",
+      "nominalEnd": "2023-07-17T12:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.7,
+        "value": 0.0,
+        "pop": 14,
+        "probability": 14
+      },
+      "temperature": {
+        "value": 21.0,
+        "min": 21.6,
+        "max": 23.5,
+        "probability": {
+          "tenPercentile": 19.5,
+          "ninetyPercentile": 22.4
+        }
+      },
+      "wind": {
+        "direction": 226,
+        "gust": 4.9,
+        "speed": 2.1,
+        "probability": {
+          "tenPercentile": 1.2,
+          "ninetyPercentile": 3.3
+        }
+      },
+      "feelsLike": {
+        "value": 21.0
+      },
+      "pressure": {
+        "value": 1015
+      },
+      "cloudCover": {
+        "value": 49,
+        "high": 0,
+        "middle": 19,
+        "low": 36,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 74.4
+      },
+      "dewPoint": {
+        "value": 16.3
+      },
+      "start": "2023-07-17T12:00:00+03:00",
+      "end": "2023-07-17T18:00:00+03:00",
+      "nominalStart": "2023-07-17T12:00:00+03:00",
+      "nominalEnd": "2023-07-17T18:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
+        "next6Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 2.0,
+        "value": 0.0,
+        "pop": 24,
+        "probability": 24
+      },
+      "temperature": {
+        "value": 21.9,
+        "min": 18.8,
+        "max": 21.1,
+        "probability": {
+          "tenPercentile": 18.8,
+          "ninetyPercentile": 22.7
+        }
+      },
+      "wind": {
+        "direction": 239,
+        "gust": 7.2,
+        "speed": 4.0,
+        "probability": {
+          "tenPercentile": 1.8,
+          "ninetyPercentile": 5.2
+        }
+      },
+      "feelsLike": {
+        "value": 21.9
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 0,
+        "middle": 100,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 75.8
+      },
+      "dewPoint": {
+        "value": 17.4
+      },
+      "start": "2023-07-17T18:00:00+03:00",
+      "end": "2023-07-18T00:00:00+03:00",
+      "nominalStart": "2023-07-17T18:00:00+03:00",
+      "nominalEnd": "2023-07-18T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 9,
+        "clouds": 3,
+        "precipPhase": "Rain",
+        "precip": 2
+      },
+      "symbolCode": {
+        "next6Hours": "rain",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 1.7,
+        "value": 1.7,
+        "pop": 29,
+        "probability": 29
+      },
+      "temperature": {
+        "value": 18.6,
+        "min": 17.7,
+        "max": 19.3,
+        "probability": {
+          "tenPercentile": 17.2,
+          "ninetyPercentile": 19.2
+        }
+      },
+      "wind": {
+        "direction": 247,
+        "gust": 11.5,
+        "speed": 8.2,
+        "probability": {
+          "tenPercentile": 7.1,
+          "ninetyPercentile": 9.6
+        }
+      },
+      "feelsLike": {
+        "value": 18.6
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "uvIndex": {
+        "value": 0.0
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 100,
+        "middle": 16,
+        "low": 1,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 81.8
+      },
+      "dewPoint": {
+        "value": 15.6
+      },
+      "start": "2023-07-18T03:00:00+03:00",
+      "end": "2023-07-18T09:00:00+03:00",
+      "nominalStart": "2023-07-18T00:00:00+03:00",
+      "nominalEnd": "2023-07-18T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "fair_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 16,
+        "probability": 16
+      },
+      "temperature": {
+        "value": 18.5,
+        "min": 18.4,
+        "max": 19.0,
+        "probability": {
+          "tenPercentile": 17.6,
+          "ninetyPercentile": 19.3
+        }
+      },
+      "wind": {
+        "direction": 271,
+        "speed": 9.6,
+        "probability": {
+          "tenPercentile": 7.7,
+          "ninetyPercentile": 10.6
+        }
+      },
+      "feelsLike": {
+        "value": 18.5
+      },
+      "pressure": {
+        "value": 1013
+      },
+      "cloudCover": {
+        "value": 21,
+        "high": 0,
+        "middle": 7,
+        "low": 10,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 73.7
+      },
+      "dewPoint": {
+        "value": 13.9
+      },
+      "start": "2023-07-18T09:00:00+03:00",
+      "end": "2023-07-18T15:00:00+03:00",
+      "nominalStart": "2023-07-18T06:00:00+03:00",
+      "nominalEnd": "2023-07-18T12:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "fair_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 16,
+        "probability": 16
+      },
+      "temperature": {
+        "value": 18.5,
+        "min": 17.4,
+        "max": 18.7,
+        "probability": {
+          "tenPercentile": 18.0,
+          "ninetyPercentile": 18.8
+        }
+      },
+      "wind": {
+        "direction": 265,
+        "speed": 11.2,
+        "probability": {
+          "tenPercentile": 10.0,
+          "ninetyPercentile": 12.3
+        }
+      },
+      "feelsLike": {
+        "value": 18.5
+      },
+      "pressure": {
+        "value": 1014
+      },
+      "cloudCover": {
+        "value": 31,
+        "high": 0,
+        "middle": 2,
+        "low": 13,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 69.0
+      },
+      "dewPoint": {
+        "value": 12.8
+      },
+      "start": "2023-07-18T15:00:00+03:00",
+      "end": "2023-07-18T21:00:00+03:00",
+      "nominalStart": "2023-07-18T12:00:00+03:00",
+      "nominalEnd": "2023-07-18T18:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next6Hours": "fair_night",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 12,
+        "probability": 12
+      },
+      "temperature": {
+        "value": 17.7,
+        "min": 17.4,
+        "max": 17.7,
+        "probability": {
+          "tenPercentile": 17.3,
+          "ninetyPercentile": 18.0
+        }
+      },
+      "wind": {
+        "direction": 262,
+        "speed": 10.5,
+        "probability": {
+          "tenPercentile": 8.9,
+          "ninetyPercentile": 11.2
+        }
+      },
+      "feelsLike": {
+        "value": 17.7
+      },
+      "pressure": {
+        "value": 1013
+      },
+      "cloudCover": {
+        "value": 20,
+        "high": 3,
+        "middle": 5,
+        "low": 2,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 72.2
+      },
+      "dewPoint": {
+        "value": 12.7
+      },
+      "start": "2023-07-18T21:00:00+03:00",
+      "end": "2023-07-19T03:00:00+03:00",
+      "nominalStart": "2023-07-18T18:00:00+03:00",
+      "nominalEnd": "2023-07-19T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "fair_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 12,
+        "probability": 12
+      },
+      "temperature": {
+        "value": 17.4,
+        "min": 16.6,
+        "max": 17.9,
+        "probability": {
+          "tenPercentile": 17.0,
+          "ninetyPercentile": 17.9
+        }
+      },
+      "wind": {
+        "direction": 273,
+        "speed": 8.3,
+        "probability": {
+          "tenPercentile": 7.2,
+          "ninetyPercentile": 9.3
+        }
+      },
+      "feelsLike": {
+        "value": 17.4
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "cloudCover": {
+        "value": 34,
+        "high": 5,
+        "middle": 9,
+        "low": 5,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 72.9
+      },
+      "dewPoint": {
+        "value": 12.6
+      },
+      "start": "2023-07-19T03:00:00+03:00",
+      "end": "2023-07-19T09:00:00+03:00",
+      "nominalStart": "2023-07-19T00:00:00+03:00",
+      "nominalEnd": "2023-07-19T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 12,
+        "probability": 12
+      },
+      "temperature": {
+        "value": 17.4,
+        "min": 17.4,
+        "max": 18.6,
+        "probability": {
+          "tenPercentile": 16.9,
+          "ninetyPercentile": 18.5
+        }
+      },
+      "wind": {
+        "direction": 268,
+        "speed": 6.4,
+        "probability": {
+          "tenPercentile": 5.1,
+          "ninetyPercentile": 8.3
+        }
+      },
+      "feelsLike": {
+        "value": 17.4
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "cloudCover": {
+        "value": 39,
+        "high": 6,
+        "middle": 4,
+        "low": 9,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 69.9
+      },
+      "dewPoint": {
+        "value": 12.0
+      },
+      "start": "2023-07-19T09:00:00+03:00",
+      "end": "2023-07-19T15:00:00+03:00",
+      "nominalStart": "2023-07-19T06:00:00+03:00",
+      "nominalEnd": "2023-07-19T12:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 12,
+        "probability": 12
+      },
+      "temperature": {
+        "value": 18.5,
+        "min": 16.7,
+        "max": 18.5,
+        "probability": {
+          "tenPercentile": 17.9,
+          "ninetyPercentile": 19.5
+        }
+      },
+      "wind": {
+        "direction": 262,
+        "speed": 6.2,
+        "probability": {
+          "tenPercentile": 4.5,
+          "ninetyPercentile": 7.8
+        }
+      },
+      "feelsLike": {
+        "value": 18.5
+      },
+      "pressure": {
+        "value": 1011
+      },
+      "cloudCover": {
+        "value": 61,
+        "high": 37,
+        "middle": 6,
+        "low": 11,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 67.0
+      },
+      "dewPoint": {
+        "value": 12.4
+      },
+      "start": "2023-07-19T15:00:00+03:00",
+      "end": "2023-07-19T21:00:00+03:00",
+      "nominalStart": "2023-07-19T12:00:00+03:00",
+      "nominalEnd": "2023-07-19T18:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next6Hours": "cloudy",
+        "next12Hours": "cloudy"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 20,
+        "probability": 20
+      },
+      "temperature": {
+        "value": 16.7,
+        "min": 16.1,
+        "max": 16.7,
+        "probability": {
+          "tenPercentile": 16.2,
+          "ninetyPercentile": 17.6
+        }
+      },
+      "wind": {
+        "direction": 254,
+        "speed": 4.5,
+        "probability": {
+          "tenPercentile": 2.5,
+          "ninetyPercentile": 6.3
+        }
+      },
+      "feelsLike": {
+        "value": 16.7
+      },
+      "pressure": {
+        "value": 1009
+      },
+      "cloudCover": {
+        "value": 91,
+        "high": 68,
+        "middle": 11,
+        "low": 5,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 70.9
+      },
+      "dewPoint": {
+        "value": 11.4
+      },
+      "start": "2023-07-19T21:00:00+03:00",
+      "end": "2023-07-20T03:00:00+03:00",
+      "nominalStart": "2023-07-19T18:00:00+03:00",
+      "nominalEnd": "2023-07-20T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 4,
+        "clouds": 3,
+        "precip": 0
+      },
+      "symbolCode": {
+        "next6Hours": "cloudy",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.8,
+        "value": 0.0,
+        "pop": 29,
+        "probability": 29
+      },
+      "temperature": {
+        "value": 16.3,
+        "min": 15.9,
+        "max": 17.3,
+        "probability": {
+          "tenPercentile": 15.3,
+          "ninetyPercentile": 17.1
+        }
+      },
+      "wind": {
+        "direction": 258,
+        "speed": 4.9,
+        "probability": {
+          "tenPercentile": 1.9,
+          "ninetyPercentile": 7.6
+        }
+      },
+      "feelsLike": {
+        "value": 16.3
+      },
+      "pressure": {
+        "value": 1008
+      },
+      "cloudCover": {
+        "value": 99,
+        "high": 11,
+        "middle": 31,
+        "low": 6,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 77.3
+      },
+      "dewPoint": {
+        "value": 12.5
+      },
+      "start": "2023-07-20T03:00:00+03:00",
+      "end": "2023-07-20T09:00:00+03:00",
+      "nominalStart": "2023-07-20T00:00:00+03:00",
+      "nominalEnd": "2023-07-20T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 5,
+        "clouds": 2,
+        "precipPhase": "Rain",
+        "precip": 2,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "rainshowers_day",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 2.2,
+        "value": 2.2,
+        "pop": 29,
+        "probability": 29
+      },
+      "temperature": {
+        "value": 17.3,
+        "min": 17.3,
+        "max": 18.5,
+        "probability": {
+          "tenPercentile": 16.5,
+          "ninetyPercentile": 18.4
+        }
+      },
+      "wind": {
+        "direction": 264,
+        "speed": 4.7,
+        "probability": {
+          "tenPercentile": 1.9,
+          "ninetyPercentile": 7.1
+        }
+      },
+      "feelsLike": {
+        "value": 17.3
+      },
+      "pressure": {
+        "value": 1007
+      },
+      "cloudCover": {
+        "value": 70,
+        "high": 21,
+        "middle": 26,
+        "low": 13,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 74.3
+      },
+      "dewPoint": {
+        "value": 12.8
+      },
+      "start": "2023-07-20T09:00:00+03:00",
+      "end": "2023-07-20T15:00:00+03:00",
+      "nominalStart": "2023-07-20T06:00:00+03:00",
+      "nominalEnd": "2023-07-20T12:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 18,
+        "probability": 18
+      },
+      "temperature": {
+        "value": 18.3,
+        "min": 16.7,
+        "max": 18.3,
+        "probability": {
+          "tenPercentile": 17.6,
+          "ninetyPercentile": 19.6
+        }
+      },
+      "wind": {
+        "direction": 262,
+        "speed": 5.4,
+        "probability": {
+          "tenPercentile": 4.5,
+          "ninetyPercentile": 9.0
+        }
+      },
+      "feelsLike": {
+        "value": 18.3
+      },
+      "pressure": {
+        "value": 1009
+      },
+      "cloudCover": {
+        "value": 60,
+        "high": 6,
+        "middle": 15,
+        "low": 17,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 78.4
+      },
+      "dewPoint": {
+        "value": 14.6
+      },
+      "start": "2023-07-20T15:00:00+03:00",
+      "end": "2023-07-20T21:00:00+03:00",
+      "nominalStart": "2023-07-20T12:00:00+03:00",
+      "nominalEnd": "2023-07-20T18:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 5,
+        "clouds": 2,
+        "precipPhase": "Rain",
+        "precip": 2,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next6Hours": "rainshowers_night",
+        "next12Hours": "rainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 2.0,
+        "value": 2.0,
+        "pop": 39,
+        "probability": 39
+      },
+      "temperature": {
+        "value": 16.7,
+        "min": 16.1,
+        "max": 16.8,
+        "probability": {
+          "tenPercentile": 16.0,
+          "ninetyPercentile": 17.4
+        }
+      },
+      "wind": {
+        "direction": 258,
+        "speed": 4.9,
+        "probability": {
+          "tenPercentile": 2.5,
+          "ninetyPercentile": 7.4
+        }
+      },
+      "feelsLike": {
+        "value": 16.7
+      },
+      "pressure": {
+        "value": 1008
+      },
+      "cloudCover": {
+        "value": 24,
+        "high": 0,
+        "middle": 3,
+        "low": 14,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 73.3
+      },
+      "dewPoint": {
+        "value": 12.0
+      },
+      "start": "2023-07-20T21:00:00+03:00",
+      "end": "2023-07-21T03:00:00+03:00",
+      "nominalStart": "2023-07-20T18:00:00+03:00",
+      "nominalEnd": "2023-07-21T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 5,
+        "clouds": 2,
+        "precipPhase": "Rain",
+        "precip": 2,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "rainshowers_day",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 2.5,
+        "value": 2.5,
+        "pop": 33,
+        "probability": 33
+      },
+      "temperature": {
+        "value": 16.4,
+        "min": 15.5,
+        "max": 17.2,
+        "probability": {
+          "tenPercentile": 15.3,
+          "ninetyPercentile": 17.4
+        }
+      },
+      "wind": {
+        "direction": 256,
+        "speed": 5.6,
+        "probability": {
+          "tenPercentile": 3.4,
+          "ninetyPercentile": 8.9
+        }
+      },
+      "feelsLike": {
+        "value": 16.4
+      },
+      "pressure": {
+        "value": 1008
+      },
+      "cloudCover": {
+        "value": 39,
+        "high": 11,
+        "middle": 16,
+        "low": 17,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 80.7
+      },
+      "dewPoint": {
+        "value": 13.1
+      },
+      "start": "2023-07-21T03:00:00+03:00",
+      "end": "2023-07-21T09:00:00+03:00",
+      "nominalStart": "2023-07-21T00:00:00+03:00",
+      "nominalEnd": "2023-07-21T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "fair_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 16,
+        "probability": 16
+      },
+      "temperature": {
+        "value": 17.1,
+        "min": 17.1,
+        "max": 18.4,
+        "probability": {
+          "tenPercentile": 16.2,
+          "ninetyPercentile": 18.1
+        }
+      },
+      "wind": {
+        "direction": 266,
+        "speed": 5.8,
+        "probability": {
+          "tenPercentile": 4.2,
+          "ninetyPercentile": 9.3
+        }
+      },
+      "feelsLike": {
+        "value": 17.1
+      },
+      "pressure": {
+        "value": 1009
+      },
+      "cloudCover": {
+        "value": 33,
+        "high": 1,
+        "middle": 14,
+        "low": 18,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 79.1
+      },
+      "dewPoint": {
+        "value": 13.6
+      },
+      "start": "2023-07-21T09:00:00+03:00",
+      "end": "2023-07-21T15:00:00+03:00",
+      "nominalStart": "2023-07-21T06:00:00+03:00",
+      "nominalEnd": "2023-07-21T12:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 10,
+        "probability": 10
+      },
+      "temperature": {
+        "value": 18.1,
+        "min": 16.5,
+        "max": 18.1,
+        "probability": {
+          "tenPercentile": 17.5,
+          "ninetyPercentile": 18.8
+        }
+      },
+      "wind": {
+        "direction": 261,
+        "speed": 6.2,
+        "probability": {
+          "tenPercentile": 4.2,
+          "ninetyPercentile": 10.1
+        }
+      },
+      "feelsLike": {
+        "value": 18.1
+      },
+      "pressure": {
+        "value": 1011
+      },
+      "cloudCover": {
+        "value": 55,
+        "high": 19,
+        "middle": 2,
+        "low": 8,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 67.6
+      },
+      "dewPoint": {
+        "value": 12.1
+      },
+      "start": "2023-07-21T15:00:00+03:00",
+      "end": "2023-07-21T21:00:00+03:00",
+      "nominalStart": "2023-07-21T12:00:00+03:00",
+      "nominalEnd": "2023-07-21T18:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next6Hours": "fair_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 22,
+        "probability": 22
+      },
+      "temperature": {
+        "value": 16.6,
+        "min": 15.8,
+        "max": 16.6,
+        "probability": {
+          "tenPercentile": 15.9,
+          "ninetyPercentile": 17.3
+        }
+      },
+      "wind": {
+        "direction": 256,
+        "speed": 4.7,
+        "probability": {
+          "tenPercentile": 1.8,
+          "ninetyPercentile": 7.9
+        }
+      },
+      "feelsLike": {
+        "value": 16.6
+      },
+      "pressure": {
+        "value": 1011
+      },
+      "cloudCover": {
+        "value": 35,
+        "high": 3,
+        "middle": 7,
+        "low": 10,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 70.7
+      },
+      "dewPoint": {
+        "value": 11.3
+      },
+      "start": "2023-07-21T21:00:00+03:00",
+      "end": "2023-07-22T03:00:00+03:00",
+      "nominalStart": "2023-07-21T18:00:00+03:00",
+      "nominalEnd": "2023-07-22T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.6,
+        "value": 0.0,
+        "pop": 26,
+        "probability": 26
+      },
+      "temperature": {
+        "value": 15.9,
+        "min": 15.7,
+        "max": 17.6,
+        "probability": {
+          "tenPercentile": 14.4,
+          "ninetyPercentile": 16.9
+        }
+      },
+      "wind": {
+        "direction": 252,
+        "speed": 4.9,
+        "probability": {
+          "tenPercentile": 2.2,
+          "ninetyPercentile": 8.0
+        }
+      },
+      "feelsLike": {
+        "value": 15.9
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "cloudCover": {
+        "value": 51,
+        "high": 19,
+        "middle": 11,
+        "low": 4,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 78.2
+      },
+      "dewPoint": {
+        "value": 12.2
+      },
+      "start": "2023-07-22T03:00:00+03:00",
+      "end": "2023-07-22T09:00:00+03:00",
+      "nominalStart": "2023-07-22T00:00:00+03:00",
+      "nominalEnd": "2023-07-22T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.5,
+        "value": 0.0,
+        "pop": 26,
+        "probability": 26
+      },
+      "temperature": {
+        "value": 17.6,
+        "min": 17.5,
+        "max": 18.8,
+        "probability": {
+          "tenPercentile": 16.1,
+          "ninetyPercentile": 18.2
+        }
+      },
+      "wind": {
+        "direction": 252,
+        "speed": 4.8,
+        "probability": {
+          "tenPercentile": 3.1,
+          "ninetyPercentile": 6.9
+        }
+      },
+      "feelsLike": {
+        "value": 17.6
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "cloudCover": {
+        "value": 45,
+        "high": 6,
+        "middle": 8,
+        "low": 8,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 71.3
+      },
+      "dewPoint": {
+        "value": 12.4
+      },
+      "start": "2023-07-22T09:00:00+03:00",
+      "end": "2023-07-22T15:00:00+03:00",
+      "nominalStart": "2023-07-22T06:00:00+03:00",
+      "nominalEnd": "2023-07-22T12:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 20,
+        "probability": 20
+      },
+      "temperature": {
+        "value": 18.5,
+        "min": 16.9,
+        "max": 18.5,
+        "probability": {
+          "tenPercentile": 17.6,
+          "ninetyPercentile": 19.9
+        }
+      },
+      "wind": {
+        "direction": 257,
+        "speed": 5.3,
+        "probability": {
+          "tenPercentile": 2.8,
+          "ninetyPercentile": 7.4
+        }
+      },
+      "feelsLike": {
+        "value": 18.5
+      },
+      "pressure": {
+        "value": 1013
+      },
+      "cloudCover": {
+        "value": 50,
+        "high": 6,
+        "middle": 5,
+        "low": 7,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 69.4
+      },
+      "dewPoint": {
+        "value": 12.9
+      },
+      "start": "2023-07-22T15:00:00+03:00",
+      "end": "2023-07-22T21:00:00+03:00",
+      "nominalStart": "2023-07-22T12:00:00+03:00",
+      "nominalEnd": "2023-07-22T18:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next6Hours": "fair_night",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 1.2,
+        "value": 0.0,
+        "pop": 33,
+        "probability": 33
+      },
+      "temperature": {
+        "value": 17.0,
+        "min": 16.0,
+        "max": 17.0,
+        "probability": {
+          "tenPercentile": 15.9,
+          "ninetyPercentile": 18.5
+        }
+      },
+      "wind": {
+        "direction": 244,
+        "speed": 4.8,
+        "probability": {
+          "tenPercentile": 1.9,
+          "ninetyPercentile": 6.7
+        }
+      },
+      "feelsLike": {
+        "value": 17.0
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "cloudCover": {
+        "value": 32,
+        "high": 2,
+        "middle": 3,
+        "low": 8,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 72.7
+      },
+      "dewPoint": {
+        "value": 12.1
+      },
+      "start": "2023-07-22T21:00:00+03:00",
+      "end": "2023-07-23T03:00:00+03:00",
+      "nominalStart": "2023-07-22T18:00:00+03:00",
+      "nominalEnd": "2023-07-23T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 5,
+        "clouds": 2,
+        "precipPhase": "Rain",
+        "precip": 2,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "rainshowers_day",
+        "next12Hours": "rainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 5.7,
+        "value": 1.9,
+        "pop": 43,
+        "probability": 43
+      },
+      "temperature": {
+        "value": 16.2,
+        "min": 15.2,
+        "max": 16.9,
+        "probability": {
+          "tenPercentile": 14.6,
+          "ninetyPercentile": 17.3
+        }
+      },
+      "wind": {
+        "direction": 259,
+        "speed": 4.9,
+        "probability": {
+          "tenPercentile": 2.3,
+          "ninetyPercentile": 7.7
+        }
+      },
+      "feelsLike": {
+        "value": 16.2
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "cloudCover": {
+        "value": 55,
+        "high": 14,
+        "middle": 8,
+        "low": 8,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 80.8
+      },
+      "dewPoint": {
+        "value": 13.0
+      },
+      "start": "2023-07-23T03:00:00+03:00",
+      "end": "2023-07-23T09:00:00+03:00",
+      "nominalStart": "2023-07-23T00:00:00+03:00",
+      "nominalEnd": "2023-07-23T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 5,
+        "clouds": 2,
+        "precipPhase": "Rain",
+        "precip": 2,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "rainshowers_day",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 2.0,
+        "value": 2.0,
+        "pop": 39,
+        "probability": 39
+      },
+      "temperature": {
+        "value": 16.9,
+        "min": 16.9,
+        "max": 18.5,
+        "probability": {
+          "tenPercentile": 15.9,
+          "ninetyPercentile": 18.7
+        }
+      },
+      "wind": {
+        "direction": 264,
+        "speed": 5.2,
+        "probability": {
+          "tenPercentile": 2.0,
+          "ninetyPercentile": 8.2
+        }
+      },
+      "feelsLike": {
+        "value": 16.9
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "cloudCover": {
+        "value": 79,
+        "high": 43,
+        "middle": 49,
+        "low": 25,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 81.0
+      },
+      "dewPoint": {
+        "value": 13.7
+      },
+      "start": "2023-07-23T09:00:00+03:00",
+      "end": "2023-07-23T15:00:00+03:00",
+      "nominalStart": "2023-07-23T06:00:00+03:00",
+      "nominalEnd": "2023-07-23T12:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "fair_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 20,
+        "probability": 20
+      },
+      "temperature": {
+        "value": 18.2,
+        "min": 16.5,
+        "max": 18.2,
+        "probability": {
+          "tenPercentile": 17.5,
+          "ninetyPercentile": 19.5
+        }
+      },
+      "wind": {
+        "direction": 273,
+        "speed": 6.7,
+        "probability": {
+          "tenPercentile": 3.2,
+          "ninetyPercentile": 9.7
+        }
+      },
+      "feelsLike": {
+        "value": 18.2
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "cloudCover": {
+        "value": 34,
+        "high": 6,
+        "middle": 11,
+        "low": 17,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 78.1
+      },
+      "dewPoint": {
+        "value": 14.5
+      },
+      "start": "2023-07-23T15:00:00+03:00",
+      "end": "2023-07-23T21:00:00+03:00",
+      "nominalStart": "2023-07-23T12:00:00+03:00",
+      "nominalEnd": "2023-07-23T18:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next6Hours": "fair_night",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.7,
+        "value": 0.0,
+        "pop": 28,
+        "probability": 28
+      },
+      "temperature": {
+        "value": 16.8,
+        "min": 15.9,
+        "max": 16.8,
+        "probability": {
+          "tenPercentile": 16.0,
+          "ninetyPercentile": 17.8
+        }
+      },
+      "wind": {
+        "direction": 269,
+        "speed": 5.1,
+        "probability": {
+          "tenPercentile": 3.0,
+          "ninetyPercentile": 8.1
+        }
+      },
+      "feelsLike": {
+        "value": 16.8
+      },
+      "pressure": {
+        "value": 1012
+      },
+      "cloudCover": {
+        "value": 28,
+        "high": 8,
+        "middle": 1,
+        "low": 7,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 75.4
+      },
+      "dewPoint": {
+        "value": 12.5
+      },
+      "start": "2023-07-23T21:00:00+03:00",
+      "end": "2023-07-24T03:00:00+03:00",
+      "nominalStart": "2023-07-23T18:00:00+03:00",
+      "nominalEnd": "2023-07-24T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 5,
+        "clouds": 2,
+        "precipPhase": "Rain",
+        "precip": 2,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "rainshowers_day",
+        "next12Hours": "lightrainshowers_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 3.5,
+        "value": 3.5,
+        "pop": 37,
+        "probability": 37
+      },
+      "temperature": {
+        "value": 16.1,
+        "min": 15.5,
+        "max": 17.3,
+        "probability": {
+          "tenPercentile": 14.9,
+          "ninetyPercentile": 17.1
+        }
+      },
+      "wind": {
+        "direction": 266,
+        "speed": 4.6,
+        "probability": {
+          "tenPercentile": 2.4,
+          "ninetyPercentile": 8.3
+        }
+      },
+      "feelsLike": {
+        "value": 16.1
+      },
+      "pressure": {
+        "value": 1011
+      },
+      "cloudCover": {
+        "value": 37,
+        "high": 11,
+        "middle": 7,
+        "low": 6,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 81.4
+      },
+      "dewPoint": {
+        "value": 13.0
+      },
+      "start": "2023-07-24T03:00:00+03:00",
+      "end": "2023-07-24T09:00:00+03:00",
+      "nominalStart": "2023-07-24T00:00:00+03:00",
+      "nominalEnd": "2023-07-24T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 22,
+        "probability": 22
+      },
+      "temperature": {
+        "value": 17.3,
+        "min": 17.3,
+        "max": 18.7,
+        "probability": {
+          "tenPercentile": 16.0,
+          "ninetyPercentile": 18.7
+        }
+      },
+      "wind": {
+        "direction": 269,
+        "speed": 4.6,
+        "probability": {
+          "tenPercentile": 2.1,
+          "ninetyPercentile": 8.2
+        }
+      },
+      "feelsLike": {
+        "value": 17.3
+      },
+      "pressure": {
+        "value": 1010
+      },
+      "cloudCover": {
+        "value": 77,
+        "high": 13,
+        "middle": 45,
+        "low": 24,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 81.9
+      },
+      "dewPoint": {
+        "value": 14.3
+      },
+      "start": "2023-07-24T09:00:00+03:00",
+      "end": "2023-07-24T15:00:00+03:00",
+      "nominalStart": "2023-07-24T06:00:00+03:00",
+      "nominalEnd": "2023-07-24T12:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "fair_day",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 12,
+        "probability": 12
+      },
+      "temperature": {
+        "value": 18.5,
+        "min": 16.6,
+        "max": 18.5,
+        "probability": {
+          "tenPercentile": 17.4,
+          "ninetyPercentile": 20.6
+        }
+      },
+      "wind": {
+        "direction": 270,
+        "speed": 5.3,
+        "probability": {
+          "tenPercentile": 3.5,
+          "ninetyPercentile": 9.1
+        }
+      },
+      "feelsLike": {
+        "value": 18.5
+      },
+      "pressure": {
+        "value": 1010
+      },
+      "cloudCover": {
+        "value": 31,
+        "high": 2,
+        "middle": 4,
+        "low": 9,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 73.6
+      },
+      "dewPoint": {
+        "value": 13.8
+      },
+      "start": "2023-07-24T15:00:00+03:00",
+      "end": "2023-07-24T21:00:00+03:00",
+      "nominalStart": "2023-07-24T12:00:00+03:00",
+      "nominalEnd": "2023-07-24T18:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon"
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.0,
+        "value": 0.0,
+        "pop": 14,
+        "probability": 14
+      },
+      "temperature": {
+        "value": 16.6,
+        "min": 16.0,
+        "max": 16.6,
+        "probability": {
+          "tenPercentile": 16.1,
+          "ninetyPercentile": 20.7
+        }
+      },
+      "wind": {
+        "direction": 266,
+        "speed": 4.5,
+        "probability": {
+          "tenPercentile": 1.6,
+          "ninetyPercentile": 6.2
+        }
+      },
+      "feelsLike": {
+        "value": 16.6
+      },
+      "pressure": {
+        "value": 1010
+      },
+      "cloudCover": {
+        "value": 41,
+        "high": 9,
+        "middle": 1,
+        "low": 1,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 75.2
+      },
+      "dewPoint": {
+        "value": 12.3
+      },
+      "start": "2023-07-24T21:00:00+03:00",
+      "end": "2023-07-25T03:00:00+03:00",
+      "nominalStart": "2023-07-24T18:00:00+03:00",
+      "nominalEnd": "2023-07-25T00:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "cloudy"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.7,
+        "value": 0.0,
+        "pop": 28,
+        "probability": 28
+      },
+      "temperature": {
+        "value": 16.1,
+        "min": 15.6,
+        "max": 17.9,
+        "probability": {
+          "tenPercentile": 14.1,
+          "ninetyPercentile": 18.5
+        }
+      },
+      "wind": {
+        "direction": 247,
+        "speed": 3.8,
+        "probability": {
+          "tenPercentile": 1.8,
+          "ninetyPercentile": 6.0
+        }
+      },
+      "feelsLike": {
+        "value": 16.1
+      },
+      "pressure": {
+        "value": 1008
+      },
+      "cloudCover": {
+        "value": 81,
+        "high": 81,
+        "middle": 6,
+        "low": 4,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 81.5
+      },
+      "dewPoint": {
+        "value": 13.0
+      },
+      "start": "2023-07-25T03:00:00+03:00",
+      "end": "2023-07-25T09:00:00+03:00",
+      "nominalStart": "2023-07-25T00:00:00+03:00",
+      "nominalEnd": "2023-07-25T06:00:00+03:00"
+    },
+    {
+      "symbol": {
+        "sunup": false,
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun"
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "min": 0.0,
+        "max": 0.6,
+        "value": 0.0,
+        "pop": 26,
+        "probability": 26
+      },
+      "temperature": {
+        "value": 17.9,
+        "min": 17.9,
+        "max": 19.5,
+        "probability": {
+          "tenPercentile": 15.9,
+          "ninetyPercentile": 19.6
+        }
+      },
+      "wind": {
+        "direction": 217,
+        "speed": 4.1,
+        "probability": {
+          "tenPercentile": 1.8,
+          "ninetyPercentile": 5.9
+        }
+      },
+      "feelsLike": {
+        "value": 17.9
+      },
+      "pressure": {
+        "value": 1006
+      },
+      "cloudCover": {
+        "value": 86,
+        "high": 70,
+        "middle": 9,
+        "low": 3,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 78.2
+      },
+      "dewPoint": {
+        "value": 14.2
+      },
+      "start": "2023-07-25T09:00:00+03:00",
+      "end": "2023-07-25T15:00:00+03:00",
+      "nominalStart": "2023-07-25T06:00:00+03:00",
+      "nominalEnd": "2023-07-25T12:00:00+03:00"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "/api/v0/locations/56.026%2C21.067/forecast"
+    }
+  }
+}
