@@ -1,0 +1,1 @@
+.grid.svelte-hkjim5{grid-template-columns:repeat(3,minmax(0%,1fr))}@media (min-width: 992px){.grid.svelte-hkjim5{grid-template-columns:repeat(auto-fit,minmax(0%,1fr))}}.active.svelte-hkjim5{text-decoration:underline;text-decoration-color:var(--primary)}
