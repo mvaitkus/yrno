@@ -60,7 +60,7 @@ export const loadForecast = async (maybeSpot: string) => {
     });
 
     return {
-        created: forecastJson.created,
+        created: new Date(forecastJson.created).toLocaleTimeString("lt-LT", { hour: "2-digit", minute: "2-digit" }),
         // can't load it with js due to CORS
         nowLink: `https://www.yr.no/api/v0/locations/${coords}/forecast/currenthour`,
         days: days.values(),

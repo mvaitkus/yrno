@@ -95,6 +95,7 @@
 		>
 	</svg>
 	{#await forecastPromise then forecast}
+		<center>Atnaujinta {forecast.created}</center>
 		{#each forecast.days as day}
 			<h2>{day.dateStr}</h2>
 			<table>
@@ -122,7 +123,7 @@
 				{/each}
 			</table>
 		{/each}
-		Atnaujinta {forecast.created}<br><a href={forecast.nowLink}>Sąlygos dabar (json)</a>
+		<a href={forecast.nowLink}>Sąlygos dabar (json)</a>
 	{/await}
 </div>
 
