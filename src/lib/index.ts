@@ -23,33 +23,32 @@ export const spotConfig = {
     "#pavilosta": {
         name: "Pavilosta",
         coords: "56.889,21.188",
-    },    
+    },
 }
 
 export type Spot = keyof typeof spotConfig;
 
-export const setForecast = async(maybeSpot:string) => {
-    const days = await loadForecast(maybeSpot);
-    forecast.set(days);
-}
-
 export const loadForecast = async (maybeSpot: string) => {
-    if(!(maybeSpot in spotConfig)) {
-        console.log("invalid spot", maybeSpot)
+    if (!(maybeSpot in spotConfig)) {
+        // Ignore empty spot, but log if spot is not configured
+        if (maybeSpot) {
+            console.log("invalid spot", maybeSpot)
+        }
         return [] as Iterable<Day>;
     }
     const spot = maybeSpot as Spot;
 
     const coords = spotConfig[spot].coords;
-    const res = await fetch(`https://www.yr.no/api/v0/locations/${coords}/forecast`);
-    const json = await res.json();
+    const forecastRes = await fetch(`https://www.yr.no/api/v0/locations/${coords}/forecast`);
+    const forecastJson = await forecastRes.json();
 
     const days = new Map<number, Day>();
-    
-    json.shortIntervals.forEach((interval: any) => {
+
+    forecastJson.shortIntervals.forEach((interval: any) => {
         const dt = new Date(interval.start);
         const day = days.get(dt.getDate())
         if (!day) {
+            console.log(dt.getDate())
             days.set(dt.getDate(), {
                 dateStr: dt.toLocaleDateString("lt-LT", { weekday: "long", day: "numeric", month: "long" }),
                 items: [intervalToLine(interval)]
@@ -60,8 +59,15 @@ export const loadForecast = async (maybeSpot: string) => {
         }
     });
 
-    return days.values();
+    return {
+        created: forecastJson.created,
+        // can't load it with js due to CORS
+        nowLink: `https://www.yr.no/api/v0/locations/${coords}/forecast/currenthour`,
+        days: days.values(),
+    };
 }
+
+export type Forecast = ReturnType<typeof loadForecast>;
 
 export type Day = {
     dateStr: string,

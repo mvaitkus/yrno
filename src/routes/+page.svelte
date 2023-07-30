@@ -1,19 +1,22 @@
 <script lang="ts">
 	import { page, navigating } from '$app/stores';
 	import { base } from '$app/paths';
-	import { spotConfig, type Day, loadForecast, setForecast } from '$lib';
+	import { spotConfig, type Day, loadForecast, type Forecast } from '$lib';
 	import { onMount } from 'svelte';
 
 	let currentSpot = $page.url.hash;
-	let forecastPromise = Promise.resolve([] as Iterable<Day>);
+	let forecastPromise = Promise.resolve({} as Forecast);
 
 	onMount(() => {
 		forecastPromise = loadForecast(currentSpot);
 	});
 
 	$: if (navigating) {
-		currentSpot = $page.url.hash;
-		forecastPromise = loadForecast(currentSpot);
+		// only reload forecast if we are navigating to a new spot
+		if ($page.url.hash != currentSpot) {
+			currentSpot = $page.url.hash;
+			forecastPromise = loadForecast(currentSpot);
+		}
 	}
 
     // calculates the background color based on the wind speed
@@ -92,7 +95,7 @@
 		>
 	</svg>
 	{#await forecastPromise then forecast}
-		{#each forecast as day}
+		{#each forecast.days as day}
 			<h2>{day.dateStr}</h2>
 			<table>
 				{#each day.items as item}
@@ -119,6 +122,7 @@
 				{/each}
 			</table>
 		{/each}
+		Atnaujinta {forecast.created}<br><a href={forecast.nowLink}>Sąlygos dabar (json)</a>
 	{/await}
 </div>
 
