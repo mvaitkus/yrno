@@ -44,11 +44,34 @@ export const loadForecast = async (maybeSpot: string) => {
 
     const days = new Map<number, Day>();
 
+    // Let's add current hour, because once hour starts it's excluded from the forecast and you otherwise don't know what's supposed to be the wind now
+    const currentRes = await fetch(`https://yrno-y7nkc3uq7q-ey.a.run.app/yrno/api/v0/locations/${coords}/forecast/currenthour`)
+    if (currentRes.ok) {
+        const currentJson = await currentRes.json();
+        const currentDt =  new Date(currentJson.created);
+        const symbol = symbolCodes[currentJson.symbolCode.next1Hour as SymbolCode];
+        const line:Line = {
+            time: "dabar",
+            temperature: currentJson.temperature.value,
+            wind: currentJson.wind.speed,
+            direction: currentJson.wind.direction,
+            gusts: currentJson.wind.gust,
+            symbolUrl: `https://www.yr.no/assets/images/weather-symbols/light-mode/default/svg/${symbol}.svg`,
+            all: JSON.stringify(currentJson)
+        }
+        days.set(currentDt.getDate(), {
+            dateStr: currentDt.toLocaleDateString("lt-LT", { weekday: "long", day: "numeric", month: "long" }),
+            items: [line]
+        })
+    } else {
+        console.log("Failed to get curren hour forecast. Response status: " + currentRes.status)
+    }
+
+
     forecastJson.shortIntervals.forEach((interval: any) => {
         const dt = new Date(interval.start);
         const day = days.get(dt.getDate())
         if (!day) {
-            console.log(dt.getDate())
             days.set(dt.getDate(), {
                 dateStr: dt.toLocaleDateString("lt-LT", { weekday: "long", day: "numeric", month: "long" }),
                 items: [intervalToLine(interval)]
