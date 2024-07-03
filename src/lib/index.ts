@@ -56,7 +56,7 @@ export const loadForecast = async (maybeSpot: string) => {
             wind: currentJson.wind.speed,
             direction: currentJson.wind.direction,
             gusts: currentJson.wind.gust,
-            symbolUrl: `https://www.yr.no/assets/images/weather-symbols/light-mode/default/svg/${symbol}.svg`,
+            symbolUrl: `https://yrno-y7nkc3uq7q-ey.a.run.app/yrno/assets/images/weather-symbols/light-mode/default/svg/${symbol}.svg`,
             all: JSON.stringify(currentJson)
         }
         days.set(currentDt.getDate(), {
@@ -110,7 +110,7 @@ const intervalToLine = (interval: any) => {
         wind: interval.wind.speed,
         direction: interval.wind.direction,
         gusts: interval.wind.gust,
-        symbolUrl: `https://www.yr.no/assets/images/weather-symbols/light-mode/default/svg/${symbol}.svg`,
+        symbolUrl: `https://yrno-y7nkc3uq7q-ey.a.run.app/yrno/assets/images/weather-symbols/light-mode/default/svg/${symbol}.svg`,
         all: JSON.stringify(interval)
     }
 }
