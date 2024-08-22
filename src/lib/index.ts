@@ -39,7 +39,7 @@ export const loadForecast = async (maybeSpot: string) => {
     const spot = maybeSpot as Spot;
 
     const coords = spotConfig[spot].coords;
-    const forecastRes = await fetch(`https://www.yr.no/api/v0/locations/${coords}/forecast`);
+    const forecastRes = await fetch(`https://yrno-y7nkc3uq7q-ey.a.run.app/yrno/api/v0/locations/${coords}/forecast`);
     const forecastJson = await forecastRes.json();
 
     const days = new Map<number, Day>();
