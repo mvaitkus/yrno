@@ -27,7 +27,7 @@ You can preview the production build with `npm run preview`.
 
 ## Deploy
 
-To deploy the app on github pagers run:
+To deploy the app on github pages run:
 
 ```bash
 npm run deploy

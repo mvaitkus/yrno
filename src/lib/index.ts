@@ -32,10 +32,14 @@ export const spotConfig = {
         name: "Vievis",
         coords: "2-593192",
     },
-    "#dusia": {
-        name: "Dusia",
-        coords: "54.288,23.717",
-    },
+    // "#dusia": {
+    //     name: "Dusia",
+    //     coords: "54.288,23.717",
+    // },
+    "#liepaja": {
+        name: "Liepāja",
+        coords: "56.551, 20.989", 
+    }
 }
 
 export type Spot = keyof typeof spotConfig;
