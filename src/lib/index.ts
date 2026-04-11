@@ -44,13 +44,38 @@ export const spotConfig = {
 
 export type Spot = keyof typeof spotConfig;
 
-export const loadForecast = async (maybeSpot: string) => {
+export interface Line {
+    time: string;
+    temperature: number;
+    wind: number;
+    direction: number;
+    gusts: number;
+    symbolUrl: string;
+    all: string;
+}
+
+export interface Day {
+    dateStr: string;
+    items: Line[];
+}
+
+export interface Forecast {
+    created: string;
+    nowLink: string;
+    days: Day[];
+}
+
+export const loadForecast = async (maybeSpot: string): Promise<Forecast> => {
     if (!(maybeSpot in spotConfig)) {
         // Ignore empty spot, but log if spot is not configured
         if (maybeSpot) {
             console.log("invalid spot", maybeSpot)
         }
-        return [] as Iterable<Day>;
+        return {
+            created: "",
+            nowLink: "",
+            days: []
+        };
     }
     const spot = maybeSpot as Spot;
 
@@ -102,20 +127,11 @@ export const loadForecast = async (maybeSpot: string) => {
         created: new Date(forecastJson.created).toLocaleTimeString("lt-LT", { hour: "2-digit", minute: "2-digit" }),
         // can't load it with js due to CORS
         nowLink: `https://www.yr.no/api/v0/locations/${coords}/forecast/currenthour`,
-        days: days.values(),
+        days: Array.from(days.values()),
     };
 }
 
-export type Forecast = ReturnType<typeof loadForecast>;
-
-export type Day = {
-    dateStr: string,
-    items: Line[]
-}
-
-export type Line = ReturnType<typeof intervalToLine>;
-
-const intervalToLine = (interval: any) => {
+const intervalToLine = (interval: any): Line => {
     const dt = new Date(interval.start);
     const time = dt.getHours().toString().padStart(2, "0") + ":00";
     const symbol = symbolCodes[interval.symbolCode.next1Hour as SymbolCode];

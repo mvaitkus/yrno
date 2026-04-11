@@ -1,11 +1,15 @@
 <script lang="ts">
 	import { page, navigating } from '$app/stores';
 	import { base } from '$app/paths';
-	import { spotConfig, type Day, loadForecast, type Forecast } from '$lib';
+	import { spotConfig, loadForecast, type Forecast } from '$lib';
 	import { onMount } from 'svelte';
 
 	let currentSpot = $page.url.hash;
-	let forecastPromise = Promise.resolve({} as Forecast);
+	let forecastPromise = Promise.resolve({
+		created: '',
+		nowLink: '',
+		days: []
+	} as Forecast);
 
 	onMount(() => {
 		forecastPromise = loadForecast(currentSpot);
@@ -38,7 +42,7 @@
             b = 255;
             opacity = `${(wind / 4.5) * 15}%`;
             return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`
-        };
+        }
         if (wind < 6.7) { // 0, 255, 0
             r = 0;
             g = 255;
@@ -75,7 +79,7 @@
 <div class="container">
 	<div class="grid">
 		{#each Object.entries(spotConfig) as [spot, { name }]}
-			{#if spot == currentSpot}
+			{#if spot === currentSpot}
 				<div class="active"><a href="{base}/{spot}">{name}</a></div>
 			{:else}
 				<div><a href="{base}/{spot}">{name}</a></div>
@@ -95,35 +99,39 @@
 		>
 	</svg>
 	{#await forecastPromise then forecast}
-		<center>Atnaujinta {forecast.created}</center>
-		{#each forecast.days as day}
-			<h2>{day.dateStr}</h2>
-			<table>
-				{#each day.items as item}
-					<tr style={style(item.wind)}>
-						<td>{item.time}</td>
-						<td><img src={item.symbolUrl} alt="weather symbol" width="40" height="40" /></td>
-						<td>{item.temperature.toFixed(0)}º</td>
-						<td>
-							{item.wind.toFixed(1)} ({item.gusts.toFixed(0)}) m/s
-							<!-- 10.0 (12.0) m/s -->
-							<svg
-								style="transform: rotate({item.direction}deg);"
-								x="0"
-								y="0"
-								width="24"
-								height="24"
-								viewBox="0 0 24 24"
-								focusable="false"
-								aria-hidden="true"
-								><use xlink:href="#icon-arrow" x="0" y="0" width="24" height="24" /></svg
-							>
-						</td>
-					</tr>
-				{/each}
-			</table>
-		{/each}
-		<a href={forecast.nowLink}>Sąlygos dabar (json)</a>
+		{#if forecast.created}
+			<div style="text-align: center;">Atnaujinta {forecast.created}</div>
+			{#each forecast.days as day}
+				<h2>{day.dateStr}</h2>
+				<table>
+					{#each day.items as item}
+						<tr style={style(item.wind)}>
+							<td>{item.time}</td>
+							<td><img src={item.symbolUrl} alt="weather symbol" width="40" height="40" /></td>
+							<td>{item.temperature.toFixed(0)}º</td>
+							<td>
+								{item.wind.toFixed(1)} ({item.gusts.toFixed(0)}) m/s
+								<!-- 10.0 (12.0) m/s -->
+								<svg
+									style="transform: rotate({item.direction}deg);"
+									x="0"
+									y="0"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									focusable="false"
+									aria-hidden="true"
+									><use xlink:href="#icon-arrow" x="0" y="0" width="24" height="24" /></svg
+								>
+							</td>
+						</tr>
+					{/each}
+				</table>
+			{/each}
+			<a href={forecast.nowLink}>Sąlygos dabar (json)</a>
+		{:else}
+			<div style="text-align: center;">Pasirinkite vietovę</div>
+		{/if}
 	{/await}
 </div>
 
