@@ -23,57 +23,62 @@
 		}
 	}
 
-    // calculates the background color based on the wind speed
-    const style = (wind: number) => {
-        // 3bft 4.5 - 0, 255, 255
-        // 4bft 6.7 - 0, 255, 0
-        // 5bft 9.35 - 255, 255, 0
-        // 6bft 12.3 - 255, 0, 0
-        // 7bft 15.5 - 255, 0, 255
-        // 8bft 18.95 - 255, 0, 255
-        // return background color based on windspeed
-        let r = 0;
-        let g = 0;
-        let b = 0;
-        let opacity = "15%"
-        if (wind < 4.5) { // 0, 255, 255
-            r = 0;
-            g = 255;
-            b = 255;
-            opacity = `${(wind / 4.5) * 15}%`;
-            return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`
-        }
-        if (wind < 6.7) { // 0, 255, 0
-            r = 0;
-            g = 255;
-            b = 255 - ((wind - 4.5) / 2.2) * 255;
-            return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`
-        }
-        if (wind < 9.35) { // 255, 255, 0
-            r = ((wind - 6.7) / 2.65) * 255;
-            g = 255;
-            b = 0;
-            return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`
-        }
-        if (wind < 12.3) { // 255, 0, 0
-            r = 255;
-            g = 255 - ((wind - 9.35) / 2.95) * 255;
-            b = 0;
-            return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`
-        }
-        if (wind < 15.5) { // 255, 0, 255
-            r = 255;
-            g = 0;
-            b = ((wind - 12.3) / 3.2) * 255;
-            return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`
-        }
-        if (wind >= 15.5) {
-            r = 255;
-            g = 0;
-            b = 255;
-            return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`
-        }
-    }
+	// calculates the background color based on the wind speed
+	const style = (wind: number) => {
+		// 3bft 4.5 - 0, 255, 255
+		// 4bft 6.7 - 0, 255, 0
+		// 5bft 9.35 - 255, 255, 0
+		// 6bft 12.3 - 255, 0, 0
+		// 7bft 15.5 - 255, 0, 255
+		// 8bft 18.95 - 255, 0, 255
+		// return background color based on windspeed
+		let r = 0;
+		let g = 0;
+		let b = 0;
+		let opacity = '15%';
+		if (wind < 4.5) {
+			// 0, 255, 255
+			r = 0;
+			g = 255;
+			b = 255;
+			opacity = `${(wind / 4.5) * 15}%`;
+			return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`;
+		}
+		if (wind < 6.7) {
+			// 0, 255, 0
+			r = 0;
+			g = 255;
+			b = 255 - ((wind - 4.5) / 2.2) * 255;
+			return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`;
+		}
+		if (wind < 9.35) {
+			// 255, 255, 0
+			r = ((wind - 6.7) / 2.65) * 255;
+			g = 255;
+			b = 0;
+			return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`;
+		}
+		if (wind < 12.3) {
+			// 255, 0, 0
+			r = 255;
+			g = 255 - ((wind - 9.35) / 2.95) * 255;
+			b = 0;
+			return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`;
+		}
+		if (wind < 15.5) {
+			// 255, 0, 255
+			r = 255;
+			g = 0;
+			b = ((wind - 12.3) / 3.2) * 255;
+			return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`;
+		}
+		if (wind >= 15.5) {
+			r = 255;
+			g = 0;
+			b = 255;
+			return `background-color: rgba(${r}, ${g}, ${b}, ${opacity})`;
+		}
+	};
 </script>
 
 <div class="container">
@@ -124,6 +129,24 @@
 									><use xlink:href="#icon-arrow" x="0" y="0" width="24" height="24" /></svg
 								>
 							</td>
+							{#if day.items.some((i) => i.waves !== undefined)}
+								<td>
+									{item.waves !== undefined ? item.waves.toFixed(1) + 'm' : ''}
+									{#if item.waveDirection !== undefined}
+										<svg
+											style="transform: rotate({item.waveDirection}deg);"
+											x="0"
+											y="0"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											focusable="false"
+											aria-hidden="true"
+											><use xlink:href="#icon-arrow" x="0" y="0" width="24" height="24" /></svg
+										>
+									{/if}
+								</td>
+							{/if}
 						</tr>
 					{/each}
 				</table>
@@ -136,6 +159,16 @@
 </div>
 
 <style>
+	table td {
+		text-align: center;
+	}
+	/* Reduce horizontal padding on mobile for table cells */
+	@media (max-width: 600px) {
+		table td {
+			padding-left: 0.25rem;
+			padding-right: 0.25rem;
+		}
+	}
 	/* override picocss styles to use 3 columns on smaller screens */
 	.grid {
 		grid-template-columns: repeat(3, minmax(0%, 1fr));
