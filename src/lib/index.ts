@@ -92,27 +92,37 @@ export const loadForecast = async (maybeSpot: string): Promise<Forecast> => {
 
 	const coords = spotConfig[spot].coords;
 	const isCoastal = spotConfig[spot].coastal;
-	const urlSuffix = isCoastal ? 'forecast/coast' : 'forecast';
 
-	const forecastRes = await fetch(
-		`https://yrno-y7nkc3uq7q-ey.a.run.app/yrno/api/v0/locations/${coords}/${urlSuffix}`
+	const fetchRegular = fetch(
+		`https://yrno-y7nkc3uq7q-ey.a.run.app/yrno/api/v0/locations/${coords}/forecast`
 	);
+	const fetchCoast = isCoastal
+		? fetch(`https://yrno-y7nkc3uq7q-ey.a.run.app/yrno/api/v0/locations/${coords}/forecast/coast`)
+		: Promise.resolve(null);
+	const fetchCurrent = fetch(
+		`https://yrno-y7nkc3uq7q-ey.a.run.app/yrno/api/v0/locations/${coords}/forecast/currenthour`
+	);
+
+	const [forecastRes, coastRes, currentRes] = await Promise.all([
+		fetchRegular,
+		fetchCoast,
+		fetchCurrent
+	]);
+
 	const forecastJson = await forecastRes.json();
+	const coastJson = coastRes && coastRes.ok ? await coastRes.json() : null;
 
 	const days = new Map<number, Day>();
 
 	// Let's add current hour, because once hour starts it's excluded from the forecast and you otherwise don't know what's supposed to be the wind now
-	const currentRes = await fetch(
-		`https://yrno-y7nkc3uq7q-ey.a.run.app/yrno/api/v0/locations/${coords}/forecast/currenthour`
-	);
 	if (currentRes.ok) {
 		const currentJson = await currentRes.json();
 		const currentDt = new Date(currentJson.created);
 
 		let waves = undefined;
 		let waveDirection = undefined;
-		if (isCoastal) {
-			const matchingInterval = forecastJson.shortIntervals.find((interval: any) => {
+		if (isCoastal && coastJson) {
+			const matchingInterval = coastJson.shortIntervals.find((interval: any) => {
 				const start = new Date(interval.start);
 				const end = new Date(interval.end);
 				return currentDt >= start && currentDt < end;
@@ -148,13 +158,16 @@ export const loadForecast = async (maybeSpot: string): Promise<Forecast> => {
 	forecastJson.shortIntervals.forEach((interval: any) => {
 		const dt = new Date(interval.start);
 		const day = days.get(dt.getDate());
+		const matchingCoastInterval = coastJson?.shortIntervals?.find(
+			(coastInt: any) => coastInt.start === interval.start
+		);
 		if (!day) {
 			days.set(dt.getDate(), {
 				dateStr: dt.toLocaleDateString('lt-LT', { weekday: 'long', day: 'numeric', month: 'long' }),
-				items: [intervalToLine(interval)]
+				items: [intervalToLine(interval, matchingCoastInterval)]
 			});
 		} else {
-			day.items.push(intervalToLine(interval));
+			day.items.push(intervalToLine(interval, matchingCoastInterval));
 		}
 	});
 
@@ -169,7 +182,7 @@ export const loadForecast = async (maybeSpot: string): Promise<Forecast> => {
 	};
 };
 
-const intervalToLine = (interval: any): Line => {
+const intervalToLine = (interval: any, coastInterval?: any): Line => {
 	const dt = new Date(interval.start);
 	const time = dt.getHours().toString().padStart(2, '0') + ':00';
 	const symbol = symbolCodes[interval.symbolCode.next1Hour as SymbolCode];
@@ -181,9 +194,9 @@ const intervalToLine = (interval: any): Line => {
 		direction: interval.wind.direction,
 		gusts: interval.wind.gust,
 		symbolUrl: `https://yrno-y7nkc3uq7q-ey.a.run.app/yrno/assets/images/weather-symbols/light-mode/default/svg/${symbol}.svg`,
-		waves: interval.sea?.wave?.height,
-		waveDirection: interval.sea?.wave?.direction,
-		all: JSON.stringify(interval)
+		waves: coastInterval?.sea?.wave?.height,
+		waveDirection: coastInterval?.sea?.wave?.direction,
+		all: JSON.stringify({ regular: interval, coastal: coastInterval })
 	};
 };
 
